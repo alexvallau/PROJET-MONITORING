@@ -9,7 +9,7 @@ import random
 
 app = Flask(__name__)
 data_file = 'data.json'
-#data = []
+#data = [] 
 snmp_target = '192.168.141.97'  # Replace with the target IP address
 snmp_community = 'public'  # Replace with the SNMP community string
 snmp_oid = '1.3.6.1.2.1.2.2.1.10.2'  # OID for ifOutOctets for the first interface
