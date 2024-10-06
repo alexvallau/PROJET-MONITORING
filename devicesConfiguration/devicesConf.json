@@ -36,7 +36,7 @@
         "ipAddress": "192.168.2.108",
         "communityString": "public",
         "OID": {
-            "IfHCOctetsin": "1.2.3.3.4..4.4"
+            "IfHCOctetsin": "1.2.3.3.4.4.4"
         },
         "datafFilePath": "C:\\\\Users\\\\Arizzi Alexandre\\\\Documents\\\\Apprentissage\\\\TRI\\\\Master 2\\\\Projet Developpement\\\\devicesJsonData\\\\12430063.json"
     },
@@ -45,7 +45,7 @@
         "ipAddress": "192.168.2.108",
         "communityString": "public",
         "OID": {
-            "IfHCOctetsin": "1.2.3.3.4..4.5"
+            "IfHCOctetsin": "1.2.3.3.4.4.5"
         },
         "datafFilePath": "C:\\\\Users\\\\Arizzi Alexandre\\\\Documents\\\\Apprentissage\\\\TRI\\\\Master 2\\\\Projet Developpement\\\\devicesJsonData\\\\72182322.json"
     }
