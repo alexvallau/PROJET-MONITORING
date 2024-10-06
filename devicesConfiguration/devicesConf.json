@@ -4,21 +4,21 @@
         "ipAddress": "192.168.2.132",
         "communityString": "public",
         "OID": "1.3.6.1.2.1.31.1.1.1.6.2",
-        "datafFilePath": "C:\\\\Users\\\\Arizzi Alexandre\\\\Documents\\\\Apprentissage\\\\TRI\\\\Master 2\\\\Projet Developpement\\\\devicesJsonData\\\\81218272.json"
+        "datafFilePath": "C:\\Users\\yacin\\OneDrive\\Bureau\\Enseignements\\M2\\PROJET-MONITORING\\devicesJsonData\\81218272.json"
     },
     "27136586": {
         "hostname": "PC2",
         "ipAddress": "192.168.2.120",
         "communityString": "public",
         "OID": "1.3.6.1.2.1.31.1.1.1.6.2",
-        "datafFilePath": "C:\\\\Users\\\\Arizzi Alexandre\\\\Documents\\\\Apprentissage\\\\TRI\\\\Master 2\\\\Projet Developpement\\\\devicesJsonData\\\\27136586.json"
+        "datafFilePath": "C:\\Users\\yacin\\OneDrive\\Bureau\\Enseignements\\M2\\PROJET-MONITORING\\devicesJsonData\\27136586.json"
     },
     "52789047": {
         "hostname": "test",
         "ipAddress": "192.168.10.200",
         "communityString": "public",
         "OID": [],
-        "datafFilePath": "C:\\\\Users\\\\Arizzi Alexandre\\\\Documents\\\\Apprentissage\\\\TRI\\\\Master 2\\\\Projet Developpement\\\\devicesJsonData\\\\52789047.json"
+        "datafFilePath": "C:\\Users\\yacin\\OneDrive\\Bureau\\Enseignements\\M2\\PROJET-MONITORING\\devicesJsonData\\52789047.json"
     },
     "59761983": {
         "hostname": "test",
@@ -29,7 +29,7 @@
                 "IfHCOctetsin": "1.2.3.3.4..4.4"
             }
         ],
-        "datafFilePath": "C:\\\\Users\\\\Arizzi Alexandre\\\\Documents\\\\Apprentissage\\\\TRI\\\\Master 2\\\\Projet Developpement\\\\devicesJsonData\\\\59761983.json"
+        "datafFilePath": "C:\\Users\\yacin\\OneDrive\\Bureau\\Enseignements\\M2\\PROJET-MONITORING\\devicesJsonData\\59761983.json"
     },
     "12430063": {
         "hostname": "ez",
@@ -38,7 +38,7 @@
         "OID": {
             "IfHCOctetsin": "1.2.3.3.4.4.4"
         },
-        "datafFilePath": "C:\\\\Users\\\\Arizzi Alexandre\\\\Documents\\\\Apprentissage\\\\TRI\\\\Master 2\\\\Projet Developpement\\\\devicesJsonData\\\\12430063.json"
+        "datafFilePath": "C:\\Users\\yacin\\OneDrive\\Bureau\\Enseignements\\M2\\PROJET-MONITORING\\devicesJsonData\\12430063.json"
     },
     "72182322": {
         "hostname": "ez",
@@ -47,6 +47,6 @@
         "OID": {
             "IfHCOctetsin": "1.2.3.3.4.4.5"
         },
-        "datafFilePath": "C:\\\\Users\\\\Arizzi Alexandre\\\\Documents\\\\Apprentissage\\\\TRI\\\\Master 2\\\\Projet Developpement\\\\devicesJsonData\\\\72182322.json"
+        "datafFilePath": "C:\\Users\\yacin\\OneDrive\\Bureau\\Enseignements\\M2\\PROJET-MONITORING\\devicesJsonData\\72182322.json"
     }
 }
