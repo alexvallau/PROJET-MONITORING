@@ -5,6 +5,7 @@ import time
 import json
 import os
 import random
+import string
 
 
 app = Flask(__name__)
@@ -15,7 +16,7 @@ snmp_community = 'public'  # Replace with the SNMP community string
 snmp_oid = '1.3.6.1.2.1.2.2.1.10.2'  # OID for ifOutOctets for the first interface
 
 confFilePath = r'C:\\Users\\Arizzi Alexandre\\Documents\\Apprentissage\\TRI\\Master 2\\Projet Developpement\\devicesConfiguration\\devicesConf.json'
-dataFilePath = r'C:\\Users\\yacin\\OneDrive\\Bureau\\Enseignements\\M2\\PROJET-MONITORING\\data.json'
+dataFilePath = r'C:\\Users\\Arizzi Alexandre\\Documents\\Apprentissage\\TRI\\Master 2\\Projet Developpement\\devicesJsonData'
 
 
 def returnRandom():
@@ -36,49 +37,47 @@ def getDevicesIdFromJsonConfFile():
     return keys
 
 def createJsonFile(hostname, ipAddress, communityString, OID_list):
-
     random_value = returnRandom()
     str_random = str(random_value)
     
-    # JSON model for the new device
+    # Modèle JSON pour le nouvel appareil
     jsonModel = {
         str_random: {
             "hostname": hostname,
             "ipAddress": ipAddress,
             "communityString": communityString,
-            "OID": OID_list,
+            "OID": OID_list,  # Assure-toi que OID_list est une liste
             "datafFilePath": f"{dataFilePath}\\\\{str_random}.json"
         }
     }
     fileName = f"{str_random}.json"
     
-    # Create a new data file for the device
+    # Créer un nouveau fichier de données pour l'appareil
     with open(os.path.join(dataFilePath, fileName), 'w') as json_file2:
-        json.dump([], json_file2)
+        json.dump([], json_file2)  # Crée un fichier JSON vide pour les données
     
-    # Ensure the configuration file exists
+    # Assure-toi que le fichier de configuration existe
     if not os.path.isfile(confFilePath):
         with open(confFilePath, 'w') as json_file3:
-            json.dump({}, json_file3)  # Initialize it as an empty dictionary
+            json.dump({}, json_file3)  # Initialise en tant que dictionnaire vide
     
-    # Load the configuration file and ensure it's a dictionary
+    # Charger le fichier de configuration et s'assurer que c'est un dictionnaire
     with open(confFilePath, 'r') as fp:
         try:
             myJson = json.load(fp)
             if not isinstance(myJson, dict):
-                myJson = {}  # If the content is not a dictionary, make it an empty one
+                myJson = {}  # Si le contenu n'est pas un dictionnaire, faire un dictionnaire vide
         except json.JSONDecodeError:
-            myJson = {}  # If there's an error parsing the file, initialize as empty dict
+            myJson = {}  # En cas d'erreur de parsing, initialise comme dictionnaire vide
     
-    # Add the new device to the JSON
+    # Ajouter le nouvel appareil au JSON
     myJson.update(jsonModel)
     
-    # Save the updated configuration file
+    # Sauvegarder le fichier de configuration mis à jour
     with open(confFilePath, 'w') as json_file:
         json.dump(myJson, json_file, indent=4)
 
     print(f"Device added successfully with ID {random_value}")
-    
 
     
 
@@ -95,6 +94,10 @@ def load_data():
 def save_data1(data, file_path):
     with open(file_path, 'w') as file:
         json.dump(data, file)
+
+def load_snmp_correspondences():
+    with open('snmp_correspondances.json', 'r') as file:
+        return json.load(file)
 
 
 
@@ -163,19 +166,9 @@ def please():
 def create_Device():
     return render_template('addDevice.html')
 
+
+
 """ @app.route('/submitDevice', methods=['POST'])
-def submit_Device():
-
-    hostname = request.form['hostname']
-    ipAddress= request.form['ipAddress']
-    snmp_community = request.form['community']
-    snmp_oid = request.form['oid']
-    
-    createJsonFile(hostname,ipAddress,snmp_community,snmp_oid)
-    return 'Device added' """
-
-
-@app.route('/submitDevice', methods=['POST'])
 def submit_Device():
     hostname = request.form['hostname']
     ipAddress = request.form['ipAddress']
@@ -196,6 +189,32 @@ def submit_Device():
 
     # Call your JSON file creation function
     createJsonFile(hostname, ipAddress, snmp_community, snmp_oids)
+    
+    return jsonify({"message": "Device added successfully"}) """
+
+
+@app.route('/submitDevice', methods=['POST'])
+def submit_Device():
+    hostname = request.form['hostname']
+    ipAddress = request.form['ipAddress']
+    snmp_community = request.form['community']
+    
+    # Récupérer la liste des noms sélectionnés
+    selected_names = request.form.getlist('oid[]')
+    
+    # Charger les correspondances SNMP
+    snmp_correspondences = load_snmp_correspondences()
+
+    # Trouver les OIDs correspondant aux noms sélectionnés
+    oid_list = []
+    for name in selected_names:
+        if name in snmp_correspondences:
+            oid_list.append(snmp_correspondences[name])
+
+    print(f"Received OIDs: {oid_list}")  # Ligne de débogage
+
+    # Appel de ta fonction de création de fichier JSON
+    createJsonFile(hostname, ipAddress, snmp_community, oid_list)
     
     return jsonify({"message": "Device added successfully"})
 
