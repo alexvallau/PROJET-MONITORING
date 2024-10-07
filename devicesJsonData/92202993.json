@@ -1,194 +1,134 @@
 {
     "1": {
-        "timestamp": 1728315495,
-        "ifHcOctetsin": 546107
+        "timestamp": 1728318841,
+        "ifHcOctetsin": 632370
     },
     "2": {
-        "timestamp": 1728315500,
-        "ifHcOctetsin": 546195
+        "timestamp": 1728318847,
+        "ifHcOctetsin": 632780
     },
     "3": {
-        "timestamp": 1728315505,
-        "ifHcOctetsin": 546490
+        "timestamp": 1728318852,
+        "ifHcOctetsin": 632868
     },
     "4": {
-        "timestamp": 1728315510,
-        "ifHcOctetsin": 546752
+        "timestamp": 1728318857,
+        "ifHcOctetsin": 633044
     },
     "5": {
-        "timestamp": 1728315515,
-        "ifHcOctetsin": 546840
+        "timestamp": 1728318862,
+        "ifHcOctetsin": 633308
     },
     "6": {
-        "timestamp": 1728315521,
-        "ifHcOctetsin": 547188
+        "timestamp": 1728318867,
+        "ifHcOctetsin": 633396
     },
     "7": {
-        "timestamp": 1728315526,
-        "ifHcOctetsin": 547276
+        "timestamp": 1728318872,
+        "ifHcOctetsin": 633632
     },
     "8": {
-        "timestamp": 1728315531,
-        "ifHcOctetsin": 547511
+        "timestamp": 1728318877,
+        "ifHcOctetsin": 633982
     },
     "9": {
-        "timestamp": 1728315536,
-        "ifHcOctetsin": 547686
+        "timestamp": 1728318882,
+        "ifHcOctetsin": 634070
     },
     "10": {
-        "timestamp": 1728315541,
-        "ifHcOctetsin": 547948
+        "timestamp": 1728318887,
+        "ifHcOctetsin": 634246
     },
     "11": {
-        "timestamp": 1728315546,
-        "ifHcOctetsin": 548123
+        "timestamp": 1728318892,
+        "ifHcOctetsin": 634570
     },
     "12": {
-        "timestamp": 1728315551,
-        "ifHcOctetsin": 548444
+        "timestamp": 1728318897,
+        "ifHcOctetsin": 634658
     },
     "13": {
-        "timestamp": 1728315556,
-        "ifHcOctetsin": 548679
+        "timestamp": 1728318902,
+        "ifHcOctetsin": 634894
     },
     "14": {
-        "timestamp": 1728315561,
-        "ifHcOctetsin": 548767
+        "timestamp": 1728318908,
+        "ifHcOctetsin": 635244
     },
     "15": {
-        "timestamp": 1728315566,
-        "ifHcOctetsin": 548942
+        "timestamp": 1728318913,
+        "ifHcOctetsin": 635332
     },
     "16": {
-        "timestamp": 1728315571,
-        "ifHcOctetsin": 549292
+        "timestamp": 1728318918,
+        "ifHcOctetsin": 635508
     },
     "17": {
-        "timestamp": 1728315576,
-        "ifHcOctetsin": 549465
+        "timestamp": 1728318923,
+        "ifHcOctetsin": 635772
     },
     "18": {
-        "timestamp": 1728315581,
-        "ifHcOctetsin": 549613
+        "timestamp": 1728318928,
+        "ifHcOctetsin": 635860
     },
     "19": {
-        "timestamp": 1728315587,
-        "ifHcOctetsin": 549788
+        "timestamp": 1728318933,
+        "ifHcOctetsin": 636096
     },
     "20": {
-        "timestamp": 1728315592,
-        "ifHcOctetsin": 550050
+        "timestamp": 1728318938,
+        "ifHcOctetsin": 636446
     },
     "21": {
-        "timestamp": 1728315597,
-        "ifHcOctetsin": 550198
+        "timestamp": 1728318943,
+        "ifHcOctetsin": 636594
     },
     "22": {
-        "timestamp": 1728315602,
-        "ifHcOctetsin": 550373
+        "timestamp": 1728318948,
+        "ifHcOctetsin": 636770
     },
     "23": {
-        "timestamp": 1728315607,
-        "ifHcOctetsin": 550694
+        "timestamp": 1728318953,
+        "ifHcOctetsin": 637034
     },
     "24": {
-        "timestamp": 1728315612,
-        "ifHcOctetsin": 550869
+        "timestamp": 1728318958,
+        "ifHcOctetsin": 637122
     },
     "25": {
-        "timestamp": 1728315617,
-        "ifHcOctetsin": 551131
+        "timestamp": 1728318963,
+        "ifHcOctetsin": 637358
     },
     "26": {
-        "timestamp": 1728315622,
-        "ifHcOctetsin": 551219
+        "timestamp": 1728318968,
+        "ifHcOctetsin": 637620
     },
     "27": {
-        "timestamp": 1728315627,
-        "ifHcOctetsin": 551481
+        "timestamp": 1728318973,
+        "ifHcOctetsin": 637884
     },
     "28": {
-        "timestamp": 1728315632,
-        "ifHcOctetsin": 551629
+        "timestamp": 1728318978,
+        "ifHcOctetsin": 637972
     },
     "29": {
-        "timestamp": 1728315637,
-        "ifHcOctetsin": 551890
+        "timestamp": 1728318984,
+        "ifHcOctetsin": 638148
     },
     "30": {
-        "timestamp": 1728315642,
-        "ifHcOctetsin": 552065
+        "timestamp": 1728318989,
+        "ifHcOctetsin": 638532
     },
     "31": {
-        "timestamp": 1728315648,
-        "ifHcOctetsin": 552387
+        "timestamp": 1728318994,
+        "ifHcOctetsin": 638620
     },
     "32": {
-        "timestamp": 1728315653,
-        "ifHcOctetsin": 552475
+        "timestamp": 1728318999,
+        "ifHcOctetsin": 638882
     },
     "33": {
-        "timestamp": 1728315658,
-        "ifHcOctetsin": 552800
-    },
-    "34": {
-        "timestamp": 1728315663,
-        "ifHcOctetsin": 553182
-    },
-    "35": {
-        "timestamp": 1728315668,
-        "ifHcOctetsin": 553356
-    },
-    "36": {
-        "timestamp": 1728315673,
-        "ifHcOctetsin": 553531
-    },
-    "37": {
-        "timestamp": 1728315678,
-        "ifHcOctetsin": 553853
-    },
-    "38": {
-        "timestamp": 1728315683,
-        "ifHcOctetsin": 553941
-    },
-    "39": {
-        "timestamp": 1728315688,
-        "ifHcOctetsin": 554116
-    },
-    "40": {
-        "timestamp": 1728315693,
-        "ifHcOctetsin": 554438
-    },
-    "41": {
-        "timestamp": 1728315698,
-        "ifHcOctetsin": 554612
-    },
-    "42": {
-        "timestamp": 1728315704,
-        "ifHcOctetsin": 554787
-    },
-    "43": {
-        "timestamp": 1728315709,
-        "ifHcOctetsin": 555022
-    },
-    "44": {
-        "timestamp": 1728315714,
-        "ifHcOctetsin": 555197
-    },
-    "45": {
-        "timestamp": 1728315719,
-        "ifHcOctetsin": 555372
-    },
-    "46": {
-        "timestamp": 1728315724,
-        "ifHcOctetsin": 555547
-    },
-    "47": {
-        "timestamp": 1728315729,
-        "ifHcOctetsin": 555955
-    },
-    "48": {
-        "timestamp": 1728315734,
-        "ifHcOctetsin": 556043
+        "timestamp": 1728319004,
+        "ifHcOctetsin": 639146
     }
 }

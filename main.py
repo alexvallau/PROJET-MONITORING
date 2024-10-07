@@ -99,55 +99,26 @@ def load_snmp_correspondences():
     with open('snmp_correspondances.json', 'r') as file:
         return json.load(file)
 
-
-
-
-
-""" def collect_data_for_device(device_ip, community_string, oid, data_file_path):
-    previous_value = None
-
-    data = []  # Device-specific data list
-    while True:
-        error_indication, error_status, error_index, var_binds = next(
-            getCmd(SnmpEngine(),
-                   CommunityData(community_string),
-                   UdpTransportTarget((device_ip, 161)),
-                   ContextData(),
-                   ObjectType(ObjectIdentity(oid)))
-        )
-
-        if error_indication:
-            print(f"Error for {device_ip}: {error_indication}")
-        elif error_status:
-            print(f"Error for {device_ip}: {error_status.prettyPrint()}")
-        else:
-            for var_bind in var_binds:
-                current_value = int(var_bind[1])
-                if previous_value is not None:
-                    print(f"Data from {device_ip}: {current_value}")
-                    data.append(current_value)  # Append current value to device-specific data list
-                    
-                    # Save the data to the appropriate file
-                    save_data1(data, data_file_path)  # Save updated data to the JSON file
-
-                    # Optional: Control data length (keep only the last 30 days)
-                    if len(data) > 2592000:  # Keep only the last 30 days (1 minute of data if collected every second)
-                        data.pop(0)
-
-                previous_value = current_value
-        time.sleep(5) """
-
+#retourne 
+def get_name_from_oid(oid):
+    with open('snmp_correspondances.json','r') as file:
+        myJson=json.load(file)
+        for name, value in myJson.items():
+            if value == oid:
+                return name
+        return None
 
 
 
 def collect_data_for_device(device_ip, community_string, oids, data_file_path):
-    data = {}  # Dictionnaire pour stocker les données avec les timestamps
-    entry_id = 1  # Compteur pour les entrées
+    data = {}  # Dictionary to store data with timestamps
+    entry_id = 1  # Counter for entries
 
     while True:
-        current_data = {"timestamp": int(time.time())}  # Obtenir le timestamp actuel
+        current_data = {"timestamp": int(time.time())}  # Get the current timestamp
 
         for oid in oids:
+            snmp_name = get_name_from_oid(oid)
             error_indication, error_status, error_index, var_binds = next(
                 getCmd(SnmpEngine(),
                        CommunityData(community_string),
@@ -165,33 +136,18 @@ def collect_data_for_device(device_ip, community_string, oids, data_file_path):
             else:
                 for var_bind in var_binds:
                     current_value = int(var_bind[1])
-                    if oid == oids[0]:  # Si c'est le premier OID, on le stocke dans ifHcOctetsin
-                        current_data["ifHcOctetsin"] = current_value
-                    elif oid == oids[1]:  # Si c'est le deuxième OID, on le stocke dans ifHcOctetsOut
-                        current_data["ifHcOctetsOut"] = current_value
-        
-        # Ajouter les données actuelles au dictionnaire avec un ID incrémental
+                    current_data[f"{snmp_name}"] = current_value  # Store current value using SNMP name
+
+        # Add the current data to the dictionary with an incremental ID
         data[entry_id] = current_data
         entry_id += 1
         
-        # Sauvegarder les données dans le fichier
+        # Save the data to the file
         save_data1(data, data_file_path)
 
-        time.sleep(5)  # Attendre 5 secondes avant la prochaine collecte
+        time.sleep(5)  # Wait for 5 seconds before the next collection
 
 
-""" def start_snmp_threads():
-    with open(confFilePath, 'r') as fp:
-        devices = json.load(fp)
-    
-    for device_id, device_info in devices.items():
-        device_ip = device_info['ipAddress']
-        community_string = device_info['communityString']
-        oid = device_info['OID']
-        dataFilePath = device_info["datafFilePath"]
-        
-        # Start a thread for each device
-        threading.Thread(target=collect_data_for_device, args=(device_ip, community_string, oid, dataFilePath), daemon=True).start() """
 
 
 def start_snmp_threads():
@@ -235,17 +191,21 @@ def submit_Device():
     
     # Récupérer la liste des noms sélectionnés
     selected_names = request.form.getlist('oid[]')
-    
+    print(f"Selected OIDs: {selected_names}")  # Debugging line
+
     # Charger les correspondances SNMP
     snmp_correspondences = load_snmp_correspondences()
+    print("SNMP Correspondences:", snmp_correspondences)  # Debugging line
 
     # Trouver les OIDs correspondant aux noms sélectionnés
     oid_list = []
     for name in selected_names:
         if name in snmp_correspondences:
             oid_list.append(snmp_correspondences[name])
+        else:
+            print(f"Warning: '{name}' not found in SNMP correspondences.")  # Debugging line
 
-    print(f"Received OIDs: {oid_list}")  # Ligne de débogage
+    print(f"Received OIDs: {oid_list}")  # Debugging line
 
     # Appel de ta fonction de création de fichier JSON
     createJsonFile(hostname, ipAddress, snmp_community, oid_list)
@@ -258,7 +218,6 @@ def index():
     return render_template('index.html')
 
 if __name__ == '__main__':
-    #load_data()
-    #threading.Thread(target=collect_data, daemon=True).start()
+
     start_snmp_threads()
     app.run(debug=True)
