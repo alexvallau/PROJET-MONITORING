@@ -1,28 +1,8 @@
 {
-    "81218272": {
-        "hostname": "PC1",
-        "ipAddress": "192.168.2.132",
-        "communityString": "public",
-        "OID": "1.3.6.1.2.1.31.1.1.1.6.2",
-        "datafFilePath": "C:\\\\Users\\\\Arizzi Alexandre\\\\Documents\\\\Apprentissage\\\\TRI\\\\Master 2\\\\Projet Developpement\\\\devicesJsonData\\\\81218272.json"
-    },
-    "27136586": {
-        "hostname": "PC2",
-        "ipAddress": "192.168.2.120",
-        "communityString": "public",
-        "OID": "1.3.6.1.2.1.31.1.1.1.6.2",
-        "datafFilePath": "C:\\\\Users\\\\Arizzi Alexandre\\\\Documents\\\\Apprentissage\\\\TRI\\\\Master 2\\\\Projet Developpement\\\\devicesJsonData\\\\27136586.json"
-    },
-    "44901092": {
-        "hostname": "ez",
-        "ipAddress": "192.168.2.108",
-        "communityString": "public",
-        "OID": {},
-        "datafFilePath": "C:\\\\Users\\\\Arizzi Alexandre\\\\Documents\\\\Apprentissage\\\\TRI\\\\Master 2\\\\Projet Developpement\\\\devicesJsonData\\\\44901092.json"
-    },
+
     "57239859": {
         "hostname": "ez",
-        "ipAddress": "192.168.2.108",
+        "ipAddress": "192.168.2.120",
         "communityString": "public",
         "OID": [
             "1.3.6.1.2.1.31.1.1.1.6.2",
@@ -32,7 +12,7 @@
     },
     "92202993": {
         "hostname": "ez",
-        "ipAddress": "192.168.2.120",
+        "ipAddress": "192.168.2.132",
         "communityString": "public",
         "OID": [
             "1.3.6.1.2.1.31.1.1.1.6.2"
