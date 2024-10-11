@@ -8,7 +8,7 @@
             "1.3.6.1.2.1.31.1.1.1.10.2",
             "1.3.6.1.4.1.2021.4.6.0"
         ],
-        "datafFilePath": "C:\\\\Users\\\\Arizzi Alexandre\\\\Documents\\\\Apprentissage\\\\TRI\\\\Master 2\\\\Projet Developpement\\\\devicesJsonData\\\\57239859.json"
+        "datafFilePath": "C:\\\\Users\\\\yacin\\OneDrive\\Bureau\\Enseignements\\M2\\PROJET-MONITORING\\\\devicesJsonData\\\\57239859.json"
     },
     "92202993": {
         "hostname": "Machine 2",
@@ -18,6 +18,6 @@
             "1.3.6.1.2.1.31.1.1.1.6.2",
             "1.3.6.1.4.1.2021.4.6.0"
         ],
-        "datafFilePath": "C:\\\\Users\\\\Arizzi Alexandre\\\\Documents\\\\Apprentissage\\\\TRI\\\\Master 2\\\\Projet Developpement\\\\devicesJsonData\\\\92202993.json"
+        "datafFilePath": "C:\\\\Users\\\\yacin\\OneDrive\\Bureau\\Enseignements\\M2\\PROJET-MONITORING\\\\devicesJsonData\\\\92202993.json"
     }
 }
