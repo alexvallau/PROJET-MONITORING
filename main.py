@@ -17,7 +17,7 @@ snmp_oid = '1.3.6.1.2.1.2.2.1.10.2'  # OID for ifOutOctets for the first interfa
 
 confFilePath = r'C:\\Users\\Arizzi Alexandre\\Documents\\Apprentissage\\TRI\\Master 2\\Projet Developpement\\devicesConfiguration\\devicesConf.json'
 dataFilePath = r'C:\\Users\\Arizzi Alexandre\\Documents\\Apprentissage\\TRI\\Master 2\\Projet Developpement\\devicesJsonData'
-
+correspondanceFilePath = r'C:\\Users\\Arizzi Alexandre\\Documents\\Apprentissage\\TRI\\Master 2\\Projet Developpement\\snmp_correspondances.json'
 
 def returnRandom():
     return random.randint(1,100000000)
@@ -204,6 +204,22 @@ def submit_Device():
     
     return jsonify({"message": "Device added successfully"})
 
+#API
+@app.route('/dataDevices')
+def getDataFromDevices():
+    deviceId = request.args.get('id')
+    with open(os.path.join(dataFilePath,str(deviceId)+'.json'),'r') as file:
+        jsonData = json.load(file)
+    return jsonData
+
+@app.route('/devices')
+def devices():
+    # Load the devices data
+    with open(confFilePath, 'r') as f:
+        devices_data = json.load(f)
+ 
+    # Pass the updated devices data to the HTML template
+    return render_template('devices.html', devices=devices_data)
 
 @app.route('/')
 def index():

@@ -42,9 +42,15 @@ Etant donnée que ce projet n'est pas d'une "grande" complexité en termes des d
         "timestamp": 1728318841,
         "ifHcOctetsin": 762889,
         "ifHcOctetsOut": 424413
+        .... Autres données disponibles.....
     }
 ```
 Ci-dessus, nous pouvons observer un exemple de données sauvegardés. 
+
+#### Logs?
+
+
+
 
 
 

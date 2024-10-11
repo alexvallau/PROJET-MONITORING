@@ -1,6 +1,6 @@
 {
     "57239859": {
-        "hostname": "ez",
+        "hostname": "Machine 1",
         "ipAddress": "192.168.141.97",
         "communityString": "public",
         "OID": [
@@ -11,7 +11,7 @@
         "datafFilePath": "C:\\\\Users\\\\Arizzi Alexandre\\\\Documents\\\\Apprentissage\\\\TRI\\\\Master 2\\\\Projet Developpement\\\\devicesJsonData\\\\57239859.json"
     },
     "92202993": {
-        "hostname": "ez",
+        "hostname": "Machine 2",
         "ipAddress": "192.168.141.181",
         "communityString": "public",
         "OID": [
