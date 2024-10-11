@@ -1,134 +1,887 @@
 {
     "1": {
-        "timestamp": 1728318841,
-        "ifHcOctetsin": 632370
+        "timestamp": 1728649535,
+        "ifHcOctetsin": 404282,
+        "RAMRemaining": 3815320
     },
     "2": {
-        "timestamp": 1728318847,
-        "ifHcOctetsin": 632780
+        "timestamp": 1728649541,
+        "ifHcOctetsin": 404958,
+        "RAMRemaining": 3815320
     },
     "3": {
-        "timestamp": 1728318852,
-        "ifHcOctetsin": 632868
+        "timestamp": 1728649546,
+        "ifHcOctetsin": 406579,
+        "RAMRemaining": 3815320
     },
     "4": {
-        "timestamp": 1728318857,
-        "ifHcOctetsin": 633044
+        "timestamp": 1728649551,
+        "ifHcOctetsin": 410112,
+        "RAMRemaining": 3815320
     },
     "5": {
-        "timestamp": 1728318862,
-        "ifHcOctetsin": 633308
+        "timestamp": 1728649556,
+        "ifHcOctetsin": 412539,
+        "RAMRemaining": 3815320
     },
     "6": {
-        "timestamp": 1728318867,
-        "ifHcOctetsin": 633396
+        "timestamp": 1728649561,
+        "ifHcOctetsin": 416540,
+        "RAMRemaining": 3815320
     },
     "7": {
-        "timestamp": 1728318872,
-        "ifHcOctetsin": 633632
+        "timestamp": 1728649566,
+        "ifHcOctetsin": 422080,
+        "RAMRemaining": 3815224
     },
     "8": {
-        "timestamp": 1728318877,
-        "ifHcOctetsin": 633982
+        "timestamp": 1728649571,
+        "ifHcOctetsin": 426172,
+        "RAMRemaining": 3815224
     },
     "9": {
-        "timestamp": 1728318882,
-        "ifHcOctetsin": 634070
+        "timestamp": 1728649577,
+        "ifHcOctetsin": 427571,
+        "RAMRemaining": 3815224
     },
     "10": {
-        "timestamp": 1728318887,
-        "ifHcOctetsin": 634246
+        "timestamp": 1728649582,
+        "ifHcOctetsin": 429894,
+        "RAMRemaining": 3815224
     },
     "11": {
-        "timestamp": 1728318892,
-        "ifHcOctetsin": 634570
+        "timestamp": 1728649587,
+        "ifHcOctetsin": 432317,
+        "RAMRemaining": 3815224
     },
     "12": {
-        "timestamp": 1728318897,
-        "ifHcOctetsin": 634658
+        "timestamp": 1728649592,
+        "ifHcOctetsin": 433411,
+        "RAMRemaining": 3815224
     },
     "13": {
-        "timestamp": 1728318902,
-        "ifHcOctetsin": 634894
+        "timestamp": 1728649597,
+        "ifHcOctetsin": 436167,
+        "RAMRemaining": 3815224
     },
     "14": {
-        "timestamp": 1728318908,
-        "ifHcOctetsin": 635244
+        "timestamp": 1728649602,
+        "ifHcOctetsin": 441430,
+        "RAMRemaining": 3815224
     },
     "15": {
-        "timestamp": 1728318913,
-        "ifHcOctetsin": 635332
+        "timestamp": 1728649608,
+        "ifHcOctetsin": 444326,
+        "RAMRemaining": 3815224
     },
     "16": {
-        "timestamp": 1728318918,
-        "ifHcOctetsin": 635508
+        "timestamp": 1728649613,
+        "ifHcOctetsin": 448494,
+        "RAMRemaining": 3815224
     },
     "17": {
-        "timestamp": 1728318923,
-        "ifHcOctetsin": 635772
+        "timestamp": 1728649618,
+        "ifHcOctetsin": 451329,
+        "RAMRemaining": 3815224
     },
     "18": {
-        "timestamp": 1728318928,
-        "ifHcOctetsin": 635860
+        "timestamp": 1728649623,
+        "ifHcOctetsin": 453439,
+        "RAMRemaining": 3815224
     },
     "19": {
-        "timestamp": 1728318933,
-        "ifHcOctetsin": 636096
+        "timestamp": 1728649628,
+        "ifHcOctetsin": 454055,
+        "RAMRemaining": 3815224
     },
     "20": {
-        "timestamp": 1728318938,
-        "ifHcOctetsin": 636446
+        "timestamp": 1728649633,
+        "ifHcOctetsin": 455450,
+        "RAMRemaining": 3815224
     },
     "21": {
-        "timestamp": 1728318943,
-        "ifHcOctetsin": 636594
+        "timestamp": 1728649638,
+        "ifHcOctetsin": 457523,
+        "RAMRemaining": 3815224
     },
     "22": {
-        "timestamp": 1728318948,
-        "ifHcOctetsin": 636770
+        "timestamp": 1728649644,
+        "ifHcOctetsin": 460115,
+        "RAMRemaining": 3815224
     },
     "23": {
-        "timestamp": 1728318953,
-        "ifHcOctetsin": 637034
+        "timestamp": 1728649649,
+        "ifHcOctetsin": 460888,
+        "RAMRemaining": 3815224
     },
     "24": {
-        "timestamp": 1728318958,
-        "ifHcOctetsin": 637122
+        "timestamp": 1728649654,
+        "ifHcOctetsin": 462763,
+        "RAMRemaining": 3815224
     },
     "25": {
-        "timestamp": 1728318963,
-        "ifHcOctetsin": 637358
+        "timestamp": 1728649659,
+        "ifHcOctetsin": 464671,
+        "RAMRemaining": 3815224
     },
     "26": {
-        "timestamp": 1728318968,
-        "ifHcOctetsin": 637620
+        "timestamp": 1728649664,
+        "ifHcOctetsin": 465230,
+        "RAMRemaining": 3815224
     },
     "27": {
-        "timestamp": 1728318973,
-        "ifHcOctetsin": 637884
+        "timestamp": 1728649669,
+        "ifHcOctetsin": 467363,
+        "RAMRemaining": 3815224
     },
     "28": {
-        "timestamp": 1728318978,
-        "ifHcOctetsin": 637972
+        "timestamp": 1728649674,
+        "ifHcOctetsin": 468481,
+        "RAMRemaining": 3815224
     },
     "29": {
-        "timestamp": 1728318984,
-        "ifHcOctetsin": 638148
+        "timestamp": 1728649680,
+        "ifHcOctetsin": 469069,
+        "RAMRemaining": 3815224
     },
     "30": {
-        "timestamp": 1728318989,
-        "ifHcOctetsin": 638532
+        "timestamp": 1728649685,
+        "ifHcOctetsin": 470104,
+        "RAMRemaining": 3815224
     },
     "31": {
-        "timestamp": 1728318994,
-        "ifHcOctetsin": 638620
+        "timestamp": 1728649690,
+        "ifHcOctetsin": 471250,
+        "RAMRemaining": 3815224
     },
     "32": {
-        "timestamp": 1728318999,
-        "ifHcOctetsin": 638882
+        "timestamp": 1728649695,
+        "ifHcOctetsin": 472883,
+        "RAMRemaining": 3815224
     },
     "33": {
-        "timestamp": 1728319004,
-        "ifHcOctetsin": 639146
+        "timestamp": 1728649700,
+        "ifHcOctetsin": 473176,
+        "RAMRemaining": 3815224
+    },
+    "34": {
+        "timestamp": 1728649705,
+        "ifHcOctetsin": 474330,
+        "RAMRemaining": 3815224
+    },
+    "35": {
+        "timestamp": 1728649710,
+        "ifHcOctetsin": 476508,
+        "RAMRemaining": 3815224
+    },
+    "36": {
+        "timestamp": 1728649715,
+        "ifHcOctetsin": 477576,
+        "RAMRemaining": 3815224
+    },
+    "37": {
+        "timestamp": 1728649721,
+        "ifHcOctetsin": 479533,
+        "RAMRemaining": 3815224
+    },
+    "38": {
+        "timestamp": 1728649726,
+        "ifHcOctetsin": 482164,
+        "RAMRemaining": 3815224
+    },
+    "39": {
+        "timestamp": 1728649731,
+        "ifHcOctetsin": 483677,
+        "RAMRemaining": 3815224
+    },
+    "40": {
+        "timestamp": 1728649736,
+        "ifHcOctetsin": 484053,
+        "RAMRemaining": 3815224
+    },
+    "41": {
+        "timestamp": 1728649741,
+        "ifHcOctetsin": 485502,
+        "RAMRemaining": 3815224
+    },
+    "42": {
+        "timestamp": 1728649747,
+        "ifHcOctetsin": 486413,
+        "RAMRemaining": 3815224
+    },
+    "43": {
+        "timestamp": 1728649752,
+        "ifHcOctetsin": 490148,
+        "RAMRemaining": 3815224
+    },
+    "44": {
+        "timestamp": 1728649757,
+        "ifHcOctetsin": 493894,
+        "RAMRemaining": 3815224
+    },
+    "45": {
+        "timestamp": 1728649762,
+        "ifHcOctetsin": 499933,
+        "RAMRemaining": 3815224
+    },
+    "46": {
+        "timestamp": 1728649767,
+        "ifHcOctetsin": 502183,
+        "RAMRemaining": 3815224
+    },
+    "47": {
+        "timestamp": 1728649772,
+        "ifHcOctetsin": 502955,
+        "RAMRemaining": 3815224
+    },
+    "48": {
+        "timestamp": 1728649777,
+        "ifHcOctetsin": 505490,
+        "RAMRemaining": 3815224
+    },
+    "49": {
+        "timestamp": 1728649783,
+        "ifHcOctetsin": 506713,
+        "RAMRemaining": 3815224
+    },
+    "50": {
+        "timestamp": 1728649788,
+        "ifHcOctetsin": 507656,
+        "RAMRemaining": 3815224
+    },
+    "51": {
+        "timestamp": 1728649793,
+        "ifHcOctetsin": 510683,
+        "RAMRemaining": 3815224
+    },
+    "52": {
+        "timestamp": 1728649798,
+        "ifHcOctetsin": 513154,
+        "RAMRemaining": 3815224
+    },
+    "53": {
+        "timestamp": 1728649803,
+        "ifHcOctetsin": 515504,
+        "RAMRemaining": 3814608
+    },
+    "54": {
+        "timestamp": 1728649808,
+        "ifHcOctetsin": 516336,
+        "RAMRemaining": 3814608
+    },
+    "55": {
+        "timestamp": 1728649813,
+        "ifHcOctetsin": 517823,
+        "RAMRemaining": 3814608
+    },
+    "56": {
+        "timestamp": 1728649819,
+        "ifHcOctetsin": 520301,
+        "RAMRemaining": 3814608
+    },
+    "57": {
+        "timestamp": 1728649824,
+        "ifHcOctetsin": 521538,
+        "RAMRemaining": 3814608
+    },
+    "58": {
+        "timestamp": 1728649829,
+        "ifHcOctetsin": 522869,
+        "RAMRemaining": 3814608
+    },
+    "59": {
+        "timestamp": 1728649834,
+        "ifHcOctetsin": 524790,
+        "RAMRemaining": 3814608
+    },
+    "60": {
+        "timestamp": 1728649839,
+        "ifHcOctetsin": 526387,
+        "RAMRemaining": 3814608
+    },
+    "61": {
+        "timestamp": 1728649845,
+        "ifHcOctetsin": 527916,
+        "RAMRemaining": 3814608
+    },
+    "62": {
+        "timestamp": 1728649850,
+        "ifHcOctetsin": 528449,
+        "RAMRemaining": 3814608
+    },
+    "63": {
+        "timestamp": 1728649856,
+        "ifHcOctetsin": 529724,
+        "RAMRemaining": 3814608
+    },
+    "64": {
+        "timestamp": 1728649862,
+        "ifHcOctetsin": 531954,
+        "RAMRemaining": 3814608
+    },
+    "65": {
+        "timestamp": 1728649867,
+        "ifHcOctetsin": 533741,
+        "RAMRemaining": 3814608
+    },
+    "66": {
+        "timestamp": 1728649873,
+        "ifHcOctetsin": 536172,
+        "RAMRemaining": 3814608
+    },
+    "67": {
+        "timestamp": 1728649879,
+        "ifHcOctetsin": 538823,
+        "RAMRemaining": 3814608
+    },
+    "68": {
+        "timestamp": 1728649884,
+        "ifHcOctetsin": 540518,
+        "RAMRemaining": 3814608
+    },
+    "69": {
+        "timestamp": 1728649889,
+        "ifHcOctetsin": 541346,
+        "RAMRemaining": 3814608
+    },
+    "70": {
+        "timestamp": 1728649895,
+        "ifHcOctetsin": 542985,
+        "RAMRemaining": 3814608
+    },
+    "71": {
+        "timestamp": 1728649900,
+        "ifHcOctetsin": 544620,
+        "RAMRemaining": 3814608
+    },
+    "72": {
+        "timestamp": 1728649905,
+        "ifHcOctetsin": 546749,
+        "RAMRemaining": 3814608
+    },
+    "73": {
+        "timestamp": 1728649911,
+        "ifHcOctetsin": 549288,
+        "RAMRemaining": 3814608
+    },
+    "74": {
+        "timestamp": 1728649916,
+        "ifHcOctetsin": 550241,
+        "RAMRemaining": 3814608
+    },
+    "75": {
+        "timestamp": 1728649922,
+        "ifHcOctetsin": 555611,
+        "RAMRemaining": 3814608
+    },
+    "76": {
+        "timestamp": 1728649927,
+        "ifHcOctetsin": 557006,
+        "RAMRemaining": 3814608
+    },
+    "77": {
+        "timestamp": 1728649933,
+        "ifHcOctetsin": 561404,
+        "RAMRemaining": 3814608
+    },
+    "78": {
+        "timestamp": 1728649938,
+        "ifHcOctetsin": 562204,
+        "RAMRemaining": 3814608
+    },
+    "79": {
+        "timestamp": 1728649943,
+        "ifHcOctetsin": 563211,
+        "RAMRemaining": 3814608
+    },
+    "80": {
+        "timestamp": 1728649949,
+        "ifHcOctetsin": 565442,
+        "RAMRemaining": 3814608
+    },
+    "81": {
+        "timestamp": 1728649954,
+        "ifHcOctetsin": 567132,
+        "RAMRemaining": 3814608
+    },
+    "82": {
+        "timestamp": 1728649959,
+        "ifHcOctetsin": 568767,
+        "RAMRemaining": 3814608
+    },
+    "83": {
+        "timestamp": 1728649965,
+        "ifHcOctetsin": 569803,
+        "RAMRemaining": 3814608
+    },
+    "84": {
+        "timestamp": 1728649970,
+        "ifHcOctetsin": 571854,
+        "RAMRemaining": 3814608
+    },
+    "85": {
+        "timestamp": 1728649976,
+        "ifHcOctetsin": 573105,
+        "RAMRemaining": 3814608
+    },
+    "86": {
+        "timestamp": 1728649981,
+        "ifHcOctetsin": 574680,
+        "RAMRemaining": 3814608
+    },
+    "87": {
+        "timestamp": 1728649986,
+        "ifHcOctetsin": 576011,
+        "RAMRemaining": 3814608
+    },
+    "88": {
+        "timestamp": 1728649992,
+        "ifHcOctetsin": 576944,
+        "RAMRemaining": 3814608
+    },
+    "89": {
+        "timestamp": 1728649997,
+        "ifHcOctetsin": 579078,
+        "RAMRemaining": 3814608
+    },
+    "90": {
+        "timestamp": 1728650002,
+        "ifHcOctetsin": 581428,
+        "RAMRemaining": 3814608
+    },
+    "91": {
+        "timestamp": 1728650007,
+        "ifHcOctetsin": 583419,
+        "RAMRemaining": 3814608
+    },
+    "92": {
+        "timestamp": 1728650012,
+        "ifHcOctetsin": 584399,
+        "RAMRemaining": 3814608
+    },
+    "93": {
+        "timestamp": 1728650018,
+        "ifHcOctetsin": 586726,
+        "RAMRemaining": 3814608
+    },
+    "94": {
+        "timestamp": 1728650023,
+        "ifHcOctetsin": 588240,
+        "RAMRemaining": 3814608
+    },
+    "95": {
+        "timestamp": 1728650028,
+        "ifHcOctetsin": 589368,
+        "RAMRemaining": 3814608
+    },
+    "96": {
+        "timestamp": 1728650033,
+        "ifHcOctetsin": 591663,
+        "RAMRemaining": 3814608
+    },
+    "97": {
+        "timestamp": 1728650038,
+        "ifHcOctetsin": 595905,
+        "RAMRemaining": 3814608
+    },
+    "98": {
+        "timestamp": 1728650043,
+        "ifHcOctetsin": 598140,
+        "RAMRemaining": 3814608
+    },
+    "99": {
+        "timestamp": 1728650048,
+        "ifHcOctetsin": 599776,
+        "RAMRemaining": 3814608
+    },
+    "100": {
+        "timestamp": 1728650054,
+        "ifHcOctetsin": 602131,
+        "RAMRemaining": 3814608
+    },
+    "101": {
+        "timestamp": 1728650059,
+        "ifHcOctetsin": 604873,
+        "RAMRemaining": 3814608
+    },
+    "102": {
+        "timestamp": 1728650064,
+        "ifHcOctetsin": 605613,
+        "RAMRemaining": 3814608
+    },
+    "103": {
+        "timestamp": 1728650069,
+        "ifHcOctetsin": 608480,
+        "RAMRemaining": 3814608
+    },
+    "104": {
+        "timestamp": 1728650074,
+        "ifHcOctetsin": 610590,
+        "RAMRemaining": 3814608
+    },
+    "105": {
+        "timestamp": 1728650079,
+        "ifHcOctetsin": 612767,
+        "RAMRemaining": 3814608
+    },
+    "106": {
+        "timestamp": 1728650084,
+        "ifHcOctetsin": 614196,
+        "RAMRemaining": 3814416
+    },
+    "107": {
+        "timestamp": 1728650090,
+        "ifHcOctetsin": 616602,
+        "RAMRemaining": 3814416
+    },
+    "108": {
+        "timestamp": 1728650095,
+        "ifHcOctetsin": 619197,
+        "RAMRemaining": 3814416
+    },
+    "109": {
+        "timestamp": 1728650100,
+        "ifHcOctetsin": 620113,
+        "RAMRemaining": 3814416
+    },
+    "110": {
+        "timestamp": 1728650105,
+        "ifHcOctetsin": 622168,
+        "RAMRemaining": 3814416
+    },
+    "111": {
+        "timestamp": 1728650110,
+        "ifHcOctetsin": 624701,
+        "RAMRemaining": 3815280
+    },
+    "112": {
+        "timestamp": 1728650115,
+        "ifHcOctetsin": 626752,
+        "RAMRemaining": 3815088
+    },
+    "113": {
+        "timestamp": 1728650121,
+        "ifHcOctetsin": 627788,
+        "RAMRemaining": 3815088
+    },
+    "114": {
+        "timestamp": 1728650126,
+        "ifHcOctetsin": 629631,
+        "RAMRemaining": 3815088
+    },
+    "115": {
+        "timestamp": 1728650131,
+        "ifHcOctetsin": 631769,
+        "RAMRemaining": 3815088
+    },
+    "116": {
+        "timestamp": 1728650136,
+        "ifHcOctetsin": 632445,
+        "RAMRemaining": 3815088
+    },
+    "117": {
+        "timestamp": 1728650141,
+        "ifHcOctetsin": 633816,
+        "RAMRemaining": 3815088
+    },
+    "118": {
+        "timestamp": 1728650147,
+        "ifHcOctetsin": 635502,
+        "RAMRemaining": 3815088
+    },
+    "119": {
+        "timestamp": 1728650152,
+        "ifHcOctetsin": 637400,
+        "RAMRemaining": 3815088
+    },
+    "120": {
+        "timestamp": 1728650157,
+        "ifHcOctetsin": 638473,
+        "RAMRemaining": 3815088
+    },
+    "121": {
+        "timestamp": 1728650162,
+        "ifHcOctetsin": 640408,
+        "RAMRemaining": 3815088
+    },
+    "122": {
+        "timestamp": 1728650167,
+        "ifHcOctetsin": 643021,
+        "RAMRemaining": 3815088
+    },
+    "123": {
+        "timestamp": 1728650172,
+        "ifHcOctetsin": 644927,
+        "RAMRemaining": 3815088
+    },
+    "124": {
+        "timestamp": 1728650177,
+        "ifHcOctetsin": 645958,
+        "RAMRemaining": 3815088
+    },
+    "125": {
+        "timestamp": 1728650183,
+        "ifHcOctetsin": 647716,
+        "RAMRemaining": 3815088
+    },
+    "126": {
+        "timestamp": 1728650188,
+        "ifHcOctetsin": 649067,
+        "RAMRemaining": 3815088
+    },
+    "127": {
+        "timestamp": 1728650193,
+        "ifHcOctetsin": 649844,
+        "RAMRemaining": 3815088
+    },
+    "128": {
+        "timestamp": 1728650198,
+        "ifHcOctetsin": 651558,
+        "RAMRemaining": 3815088
+    },
+    "129": {
+        "timestamp": 1728650203,
+        "ifHcOctetsin": 654067,
+        "RAMRemaining": 3815088
+    },
+    "130": {
+        "timestamp": 1728650208,
+        "ifHcOctetsin": 654480,
+        "RAMRemaining": 3815088
+    },
+    "131": {
+        "timestamp": 1728650214,
+        "ifHcOctetsin": 655658,
+        "RAMRemaining": 3815088
+    },
+    "132": {
+        "timestamp": 1728650219,
+        "ifHcOctetsin": 657136,
+        "RAMRemaining": 3815088
+    },
+    "133": {
+        "timestamp": 1728650224,
+        "ifHcOctetsin": 658715,
+        "RAMRemaining": 3815088
+    },
+    "134": {
+        "timestamp": 1728650229,
+        "ifHcOctetsin": 659091,
+        "RAMRemaining": 3815088
+    },
+    "135": {
+        "timestamp": 1728650234,
+        "ifHcOctetsin": 662053,
+        "RAMRemaining": 3814896
+    },
+    "136": {
+        "timestamp": 1728650239,
+        "ifHcOctetsin": 665099,
+        "RAMRemaining": 3814896
+    },
+    "137": {
+        "timestamp": 1728650244,
+        "ifHcOctetsin": 666470,
+        "RAMRemaining": 3814896
+    },
+    "138": {
+        "timestamp": 1728650250,
+        "ifHcOctetsin": 671525,
+        "RAMRemaining": 3814896
+    },
+    "139": {
+        "timestamp": 1728650255,
+        "ifHcOctetsin": 674975,
+        "RAMRemaining": 3814896
+    },
+    "140": {
+        "timestamp": 1728650260,
+        "ifHcOctetsin": 677510,
+        "RAMRemaining": 3814896
+    },
+    "141": {
+        "timestamp": 1728650265,
+        "ifHcOctetsin": 678130,
+        "RAMRemaining": 3814896
+    },
+    "142": {
+        "timestamp": 1728650270,
+        "ifHcOctetsin": 679613,
+        "RAMRemaining": 3814896
+    },
+    "143": {
+        "timestamp": 1728650275,
+        "ifHcOctetsin": 681451,
+        "RAMRemaining": 3814896
+    },
+    "144": {
+        "timestamp": 1728650280,
+        "ifHcOctetsin": 682127,
+        "RAMRemaining": 3814896
+    },
+    "145": {
+        "timestamp": 1728650286,
+        "ifHcOctetsin": 684542,
+        "RAMRemaining": 3814896
+    },
+    "146": {
+        "timestamp": 1728650291,
+        "ifHcOctetsin": 687558,
+        "RAMRemaining": 3814896
+    },
+    "147": {
+        "timestamp": 1728650296,
+        "ifHcOctetsin": 688592,
+        "RAMRemaining": 3814896
+    },
+    "148": {
+        "timestamp": 1728650301,
+        "ifHcOctetsin": 689032,
+        "RAMRemaining": 3814896
+    },
+    "149": {
+        "timestamp": 1728650306,
+        "ifHcOctetsin": 690577,
+        "RAMRemaining": 3814896
+    },
+    "150": {
+        "timestamp": 1728650311,
+        "ifHcOctetsin": 693562,
+        "RAMRemaining": 3814896
+    },
+    "151": {
+        "timestamp": 1728650316,
+        "ifHcOctetsin": 694841,
+        "RAMRemaining": 3814896
+    },
+    "152": {
+        "timestamp": 1728650322,
+        "ifHcOctetsin": 696176,
+        "RAMRemaining": 3814896
+    },
+    "153": {
+        "timestamp": 1728650327,
+        "ifHcOctetsin": 698478,
+        "RAMRemaining": 3814896
+    },
+    "154": {
+        "timestamp": 1728650332,
+        "ifHcOctetsin": 699098,
+        "RAMRemaining": 3814896
+    },
+    "155": {
+        "timestamp": 1728650337,
+        "ifHcOctetsin": 700249,
+        "RAMRemaining": 3814896
+    },
+    "156": {
+        "timestamp": 1728650342,
+        "ifHcOctetsin": 702479,
+        "RAMRemaining": 3814896
+    },
+    "157": {
+        "timestamp": 1728650347,
+        "ifHcOctetsin": 704410,
+        "RAMRemaining": 3814896
+    },
+    "158": {
+        "timestamp": 1728650353,
+        "ifHcOctetsin": 705090,
+        "RAMRemaining": 3814896
+    },
+    "159": {
+        "timestamp": 1728650358,
+        "ifHcOctetsin": 706457,
+        "RAMRemaining": 3814896
+    },
+    "160": {
+        "timestamp": 1728650363,
+        "ifHcOctetsin": 707910,
+        "RAMRemaining": 3814896
+    },
+    "161": {
+        "timestamp": 1728650368,
+        "ifHcOctetsin": 709010,
+        "RAMRemaining": 3814896
+    },
+    "162": {
+        "timestamp": 1728650373,
+        "ifHcOctetsin": 709367,
+        "RAMRemaining": 3814896
+    },
+    "163": {
+        "timestamp": 1728650378,
+        "ifHcOctetsin": 711506,
+        "RAMRemaining": 3814896
+    },
+    "164": {
+        "timestamp": 1728650383,
+        "ifHcOctetsin": 713738,
+        "RAMRemaining": 3814896
+    },
+    "165": {
+        "timestamp": 1728650389,
+        "ifHcOctetsin": 714275,
+        "RAMRemaining": 3814896
+    },
+    "166": {
+        "timestamp": 1728650394,
+        "ifHcOctetsin": 716090,
+        "RAMRemaining": 3814896
+    },
+    "167": {
+        "timestamp": 1728650399,
+        "ifHcOctetsin": 717319,
+        "RAMRemaining": 3814772
+    },
+    "168": {
+        "timestamp": 1728650404,
+        "ifHcOctetsin": 718450,
+        "RAMRemaining": 3814772
+    },
+    "169": {
+        "timestamp": 1728650409,
+        "ifHcOctetsin": 719106,
+        "RAMRemaining": 3814772
+    },
+    "170": {
+        "timestamp": 1728650414,
+        "ifHcOctetsin": 720385,
+        "RAMRemaining": 3814772
+    },
+    "171": {
+        "timestamp": 1728650420,
+        "ifHcOctetsin": 721300,
+        "RAMRemaining": 3814772
+    },
+    "172": {
+        "timestamp": 1728650425,
+        "ifHcOctetsin": 721893,
+        "RAMRemaining": 3814772
+    },
+    "173": {
+        "timestamp": 1728650430,
+        "ifHcOctetsin": 724006,
+        "RAMRemaining": 3814772
+    },
+    "174": {
+        "timestamp": 1728650435,
+        "ifHcOctetsin": 726493,
+        "RAMRemaining": 3814772
+    },
+    "175": {
+        "timestamp": 1728650440,
+        "ifHcOctetsin": 728371,
+        "RAMRemaining": 3814772
+    },
+    "176": {
+        "timestamp": 1728650445,
+        "ifHcOctetsin": 729287,
+        "RAMRemaining": 3814772
+    },
+    "177": {
+        "timestamp": 1728650450,
+        "ifHcOctetsin": 730893,
+        "RAMRemaining": 3814772
     }
 }

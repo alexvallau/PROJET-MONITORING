@@ -87,9 +87,7 @@ def load_data():
         with open(data_file, 'r') as file:
             data = json.load(file)
 
-""" def save_data1(data, file_path):
-    with open(file_path, 'w') as file:
-        json.dump(data, file) """
+
 
 def save_data1(data, file_path):
     with open(file_path, 'w') as file:
@@ -162,12 +160,6 @@ def start_snmp_threads():
         
         # Démarrer un thread pour chaque appareil
         threading.Thread(target=collect_data_for_device, args=(device_ip, community_string, oids, dataFilePath), daemon=True).start()
-
-
-
-""" @app.route('/data')
-def get_data():
-    return jsonify(data) """
 
 
 
