@@ -19,6 +19,7 @@ Notre application sera un site web, depuis lequel nous pourrons:
 * Pouvoir ajouter/supprimer un appareil à monitorer depuis l'interface web
 * Récupération des logs de l'appareil(à définir)
 * Voir si une machine est en ligne ou non
+* Selon l'utilisateur avec lequel nous nous connectons, différentes possibilités se présenteront
 
 
 ### Choix des technologies
@@ -45,9 +46,22 @@ Etant donnée que ce projet n'est pas d'une "grande" complexité en termes des d
         .... Autres données disponibles.....
     }
 ```
-Ci-dessus, nous pouvons observer un exemple de données sauvegardés. 
+Ci-dessus, nous pouvons observer un exemple de données sauvegardés. En fonction de nos besoins il sera assez facile des OIDS.
 
 #### Logs?
+
+## Fonctionnement de l'application
+L'application pourra se découper en 4 grandes parties.
+* Le site WEB
+* Le SNMP
+* Les fichiers de Configuration
+* L'affichage des données 
+
+Nous vous proposons dans un premier temps un schéma résumant notre application:
+![Alt text](Projet-Monitoring.png)
+
+
+
 
 
 

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphique de Débit</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        canvas {
+            max-width: 600px;
+            max-height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Graphique de Débit</h1>
+    <canvas id="debitChart"></canvas>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const deviceId = '57239859'; // Remplacez par l'ID de votre appareil
+            const apiUrl = `http://localhost:5000/dataDevices?id=${deviceId}`;
+
+            fetch(apiUrl)
+                .then(response => response.json())
+                .then(data => {
+                    const labels = [];
+                    const octetsOut = [];
+                    const octetsIn = [];
+
+                    for (const key in data) {
+                        if (data.hasOwnProperty(key)) {
+                            const deviceData = data[key];
+                            labels.push(new Date(deviceData.timestamp * 1000).toLocaleTimeString()); // Convertit le timestamp
+                            octetsOut.push(deviceData.ifHcOctetsOut);
+                            octetsIn.push(deviceData.ifHcOctetsin);
+                        }
+                    }
+
+                    createChart(labels, octetsOut, octetsIn);
+                })
+                .catch(error => console.error('Erreur:', error));
+        });
+
+        function createChart(labels, octetsOut, octetsIn) {
+            const ctx = document.getElementById('debitChart').getContext('2d');
+            const debitChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: 'Débit Sortant (Octets)',
+                            data: octetsOut,
+                            borderColor: 'rgba(75, 192, 192, 1)',
+                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                            fill: true
+                        },
+                        {
+                            label: 'Débit Entrant (Octets)',
+                            data: octetsIn,
+                            borderColor: 'rgba(255, 99, 132, 1)',
+                            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                            fill: true
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Débit (Octets)'
+                            }
+                        },
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Temps'
+                            }
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>

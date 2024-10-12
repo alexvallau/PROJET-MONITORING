@@ -204,7 +204,12 @@ def submit_Device():
     
     return jsonify({"message": "Device added successfully"})
 
-#API
+
+@app.route('/salut')
+def index():
+    return render_template('data.html')
+
+#API qui renvoi les données
 @app.route('/dataDevices')
 def getDataFromDevices():
     deviceId = request.args.get('id')
@@ -212,12 +217,12 @@ def getDataFromDevices():
         jsonData = json.load(file)
     return jsonData
 
+
 @app.route('/devices')
 def devices():
     # Load the devices data
     with open(confFilePath, 'r') as f:
         devices_data = json.load(f)
- 
     # Pass the updated devices data to the HTML template
     return render_template('devices.html', devices=devices_data)
 

@@ -1,167 +1,27 @@
 {
     "1": {
-        "timestamp": 1728654464,
-        "ifHcOctetsin": 1971203,
-        "RAMRemaining": 3813136
+        "timestamp": 1728659441,
+        "ifHcOctetsin": 3531308,
+        "RAMRemaining": 3812220
     },
     "2": {
-        "timestamp": 1728654469,
-        "ifHcOctetsin": 1976439,
-        "RAMRemaining": 3813136
+        "timestamp": 1728659446,
+        "ifHcOctetsin": 3533170,
+        "RAMRemaining": 3812220
     },
     "3": {
-        "timestamp": 1728654474,
-        "ifHcOctetsin": 1979516,
-        "RAMRemaining": 3813136
+        "timestamp": 1728659451,
+        "ifHcOctetsin": 3535448,
+        "RAMRemaining": 3812220
     },
     "4": {
-        "timestamp": 1728654480,
-        "ifHcOctetsin": 1982146,
-        "RAMRemaining": 3813136
+        "timestamp": 1728659456,
+        "ifHcOctetsin": 3536592,
+        "RAMRemaining": 3812220
     },
     "5": {
-        "timestamp": 1728654485,
-        "ifHcOctetsin": 1985906,
-        "RAMRemaining": 3813136
-    },
-    "6": {
-        "timestamp": 1728654490,
-        "ifHcOctetsin": 1988179,
-        "RAMRemaining": 3813136
-    },
-    "7": {
-        "timestamp": 1728654496,
-        "ifHcOctetsin": 1990868,
-        "RAMRemaining": 3813136
-    },
-    "8": {
-        "timestamp": 1728654501,
-        "ifHcOctetsin": 1993012,
-        "RAMRemaining": 3813136
-    },
-    "9": {
-        "timestamp": 1728654506,
-        "ifHcOctetsin": 1995053,
-        "RAMRemaining": 3813136
-    },
-    "10": {
-        "timestamp": 1728654511,
-        "ifHcOctetsin": 1997271,
-        "RAMRemaining": 3813136
-    },
-    "11": {
-        "timestamp": 1728654516,
-        "ifHcOctetsin": 1998511,
-        "RAMRemaining": 3813136
-    },
-    "12": {
-        "timestamp": 1728654522,
-        "ifHcOctetsin": 1999013,
-        "RAMRemaining": 3813136
-    },
-    "13": {
-        "timestamp": 1728654527,
-        "ifHcOctetsin": 1999747,
-        "RAMRemaining": 3813136
-    },
-    "14": {
-        "timestamp": 1728654532,
-        "ifHcOctetsin": 2000962,
-        "RAMRemaining": 3813136
-    },
-    "15": {
-        "timestamp": 1728654537,
-        "ifHcOctetsin": 2002289,
-        "RAMRemaining": 3813136
-    },
-    "16": {
-        "timestamp": 1728654542,
-        "ifHcOctetsin": 2002611,
-        "RAMRemaining": 3813136
-    },
-    "17": {
-        "timestamp": 1728654548,
-        "ifHcOctetsin": 2003582,
-        "RAMRemaining": 3813136
-    },
-    "18": {
-        "timestamp": 1728654553,
-        "ifHcOctetsin": 2004543,
-        "RAMRemaining": 3813136
-    },
-    "19": {
-        "timestamp": 1728654559,
-        "ifHcOctetsin": 2005139,
-        "RAMRemaining": 3813136
-    },
-    "20": {
-        "timestamp": 1728654564,
-        "ifHcOctetsin": 2006290,
-        "RAMRemaining": 3813136
-    },
-    "21": {
-        "timestamp": 1728654570,
-        "ifHcOctetsin": 2010089,
-        "RAMRemaining": 3813136
-    },
-    "22": {
-        "timestamp": 1728654575,
-        "ifHcOctetsin": 2013043,
-        "RAMRemaining": 3813136
-    },
-    "23": {
-        "timestamp": 1728654580,
-        "ifHcOctetsin": 2018866,
-        "RAMRemaining": 3813136
-    },
-    "24": {
-        "timestamp": 1728654585,
-        "ifHcOctetsin": 2020860,
-        "RAMRemaining": 3813136
-    },
-    "25": {
-        "timestamp": 1728654590,
-        "ifHcOctetsin": 2021454,
-        "RAMRemaining": 3813136
-    },
-    "26": {
-        "timestamp": 1728654595,
-        "ifHcOctetsin": 2022281,
-        "RAMRemaining": 3813136
-    },
-    "27": {
-        "timestamp": 1728654601,
-        "ifHcOctetsin": 2023953,
-        "RAMRemaining": 3813136
-    },
-    "28": {
-        "timestamp": 1728654606,
-        "ifHcOctetsin": 2024271,
-        "RAMRemaining": 3813136
-    },
-    "29": {
-        "timestamp": 1728654611,
-        "ifHcOctetsin": 2025432,
-        "RAMRemaining": 3813136
-    },
-    "30": {
-        "timestamp": 1728654616,
-        "ifHcOctetsin": 2026452,
-        "RAMRemaining": 3813136
-    },
-    "31": {
-        "timestamp": 1728654621,
-        "ifHcOctetsin": 2026980,
-        "RAMRemaining": 3813136
-    },
-    "32": {
-        "timestamp": 1728654626,
-        "ifHcOctetsin": 2028376,
-        "RAMRemaining": 3813136
-    },
-    "33": {
-        "timestamp": 1728654631,
-        "ifHcOctetsin": 2029330,
-        "RAMRemaining": 3813136
+        "timestamp": 1728659461,
+        "ifHcOctetsin": 3538815,
+        "RAMRemaining": 3812220
     }
 }

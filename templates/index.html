@@ -30,7 +30,7 @@
 
         // Function to fetch data
         async function fetchData() {
-            const response = await fetch('/data');
+            const response = await fetch('/devicesData?id=');
             return await response.json();
         }
 
