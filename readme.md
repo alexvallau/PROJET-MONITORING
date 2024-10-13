@@ -70,7 +70,27 @@ Au sein du code, nous distinguerons 3 grandes parties.
 
 
 ### Notre avancement au 13/10
-Nous sommes capables d'ajouter une machine avec plusieurs OIDS. Les requêtes SNMP sont fonctionnelles, nous sommes capable de stocker durablement les données dans des fichiers json. Chaque fichier JSON est propre à une machine.
+* Nous sommes capables d'ajouter une machine avec plusieurs OIDS. 
+* Les requêtes SNMP sont fonctionnelles, nous sommes capable de stocker durablement les données dans des fichiers json et ce, pour plusieurs machines.
+* L'ajout formaté en json de chaque endpoint est fonctionnel
+* Le site web est partiellement fonctionnel(On ne peut qu'ajouter/consulter la liste des devices)
+
+
+### Ce qu'il nous reste à faire:
+* Afficher les données sous forme de graphique.
+* Modification des devices depuis le site
+* Suppression des devices depuis le site
+* Mettre le système de disponibilité sur chaque machine (~30 minutes)
+* Faire en sorte que quand nous ajoutons une machine depuis le site web, que cette machine soit prise en compte dans la "boucle SNMP". Pour l'instant il faut redémarrer le programme. (~30 minutes)
+* Persistance des données. Les données SNMP sont supprimées à chaque nouveau démarrage de l'application (~40 minutes)
+* Implémenter un système d'utilisateur sur notre site
+    * Un administrateur
+    * Un technicien
+
+
+
+### Conclusion temporaire
+Nous pensons qu'une bonne partie du travail a déjà été réalisée. Quelques petits détails sont désormais à apporter.
 
 
 
