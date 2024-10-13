@@ -58,9 +58,19 @@ L'application pourra se découper en 4 grandes parties.
 * L'affichage des données 
 
 Nous vous proposons dans un premier temps un schéma résumant notre application:
-![Alt text](Projet-Monitoring.png)
+![Alt text](Projet-Monitoring.jpg)
 
 
+Au sein du code, nous distinguerons 3 grandes parties.
+* SNMP(PYSNMP) se chargera de requêter les oids configurés pour chacune des machines. Ces Oids sont configurés sous forme de tableau JSON. Chaque machine peut avoir des oids particuliers
+* L'api renvoie les données récoltées par la partie SNMMP de notre programme en fonction du numéro de machine requêté.
+* Le serveur web fait simplement office de vitrine pour
+    * L'affichage des résultats
+    * L'ajout et la suppression d'une machine
+
+
+### Notre avancement au 13/10
+Nous sommes capables d'ajouter une machine avec plusieurs OIDS. Les requêtes SNMP sont fonctionnelles, nous sommes capable de stocker durablement les données dans des fichiers json. Chaque fichier JSON est propre à une machine.
 
 
 
