@@ -109,8 +109,20 @@ def get_name_from_oid(oid):
 
 
 def collect_data_for_device(device_ip, community_string, oids, data_file_path):
-    data = {}  # Dictionary to store data with timestamps
-    entry_id = 1  # Counter for entries
+    
+    ##Check if data file exist
+    if  os.path.isfile(data_file_path):
+        with open(data_file_path, 'r') as file:
+            data = json.load(file)
+            entry_id = len(data) + 1
+    else:
+        data = {}
+        entry_id = 1
+    
+      # Dictionary to store data with timestamps
+      # Counter for entries
+
+
 
     while True:
         current_data = {"timestamp": int(time.time())}  # Get the current timestamp
