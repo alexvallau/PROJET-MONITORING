@@ -23,7 +23,7 @@
                 {% for device_id, device_info in devices.items() %}
                 <tr>
                     <td>{{ device_id }}</td>
-                    <td><a href="http://localhost:5000/dataDevices?id={{ device_id }}">{{ device_info.hostname }}</a></td>
+                    <td><a href="http://localhost:5000/devicesData?id={{ device_id }}">{{ device_info.hostname }}</a></td>
                     <td>{{ device_info.ipAddress }}</td>
                    
                     <td>

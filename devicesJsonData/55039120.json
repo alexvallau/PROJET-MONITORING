@@ -1,0 +1,297 @@
+{
+    "1": {
+        "timestamp": 1729086057,
+        "ifHcOctetsin": 3770772,
+        "ifHcOctetsOut": 384752
+    },
+    "2": {
+        "timestamp": 1729086063,
+        "ifHcOctetsin": 3771632,
+        "ifHcOctetsOut": 385052
+    },
+    "3": {
+        "timestamp": 1729086068,
+        "ifHcOctetsin": 3772473,
+        "ifHcOctetsOut": 385232
+    },
+    "4": {
+        "timestamp": 1729086073,
+        "ifHcOctetsin": 3773307,
+        "ifHcOctetsOut": 385412
+    },
+    "5": {
+        "timestamp": 1729086078,
+        "ifHcOctetsin": 3775054,
+        "ifHcOctetsOut": 385592
+    },
+    "6": {
+        "timestamp": 1729086083,
+        "ifHcOctetsin": 3775708,
+        "ifHcOctetsOut": 385772
+    },
+    "7": {
+        "timestamp": 1729086088,
+        "ifHcOctetsin": 3777626,
+        "ifHcOctetsOut": 385952
+    },
+    "8": {
+        "timestamp": 1729086093,
+        "ifHcOctetsin": 3779152,
+        "ifHcOctetsOut": 386132
+    },
+    "9": {
+        "timestamp": 1729086099,
+        "ifHcOctetsin": 3780290,
+        "ifHcOctetsOut": 386372
+    },
+    "10": {
+        "timestamp": 1729086104,
+        "ifHcOctetsin": 3781040,
+        "ifHcOctetsOut": 386552
+    },
+    "11": {
+        "timestamp": 1729086109,
+        "ifHcOctetsin": 3782427,
+        "ifHcOctetsOut": 386732
+    },
+    "12": {
+        "timestamp": 1729086114,
+        "ifHcOctetsin": 3784075,
+        "ifHcOctetsOut": 386972
+    },
+    "13": {
+        "timestamp": 1729086119,
+        "ifHcOctetsin": 3784641,
+        "ifHcOctetsOut": 387152
+    },
+    "14": {
+        "timestamp": 1729086124,
+        "ifHcOctetsin": 3785475,
+        "ifHcOctetsOut": 387332
+    },
+    "15": {
+        "timestamp": 1729086129,
+        "ifHcOctetsin": 3786802,
+        "ifHcOctetsOut": 387512
+    },
+    "16": {
+        "timestamp": 1729086135,
+        "ifHcOctetsin": 3787976,
+        "ifHcOctetsOut": 387692
+    },
+    "17": {
+        "timestamp": 1729086140,
+        "ifHcOctetsin": 3788390,
+        "ifHcOctetsOut": 387932
+    },
+    "18": {
+        "timestamp": 1729086145,
+        "ifHcOctetsin": 3790004,
+        "ifHcOctetsOut": 388112
+    },
+    "19": {
+        "timestamp": 1729086150,
+        "ifHcOctetsin": 3791138,
+        "ifHcOctetsOut": 388292
+    },
+    "20": {
+        "timestamp": 1729086156,
+        "ifHcOctetsin": 3792036,
+        "ifHcOctetsOut": 388532
+    },
+    "21": {
+        "timestamp": 1729086161,
+        "ifHcOctetsin": 3792720,
+        "ifHcOctetsOut": 388712
+    },
+    "22": {
+        "timestamp": 1729086166,
+        "ifHcOctetsin": 3794091,
+        "ifHcOctetsOut": 388892
+    },
+    "23": {
+        "timestamp": 1729086171,
+        "ifHcOctetsin": 3795048,
+        "ifHcOctetsOut": 389072
+    },
+    "24": {
+        "timestamp": 1729086176,
+        "ifHcOctetsin": 3796459,
+        "ifHcOctetsOut": 389252
+    },
+    "25": {
+        "timestamp": 1729086181,
+        "ifHcOctetsin": 3797715,
+        "ifHcOctetsOut": 389492
+    },
+    "26": {
+        "timestamp": 1729086186,
+        "ifHcOctetsin": 3798916,
+        "ifHcOctetsOut": 389672
+    },
+    "27": {
+        "timestamp": 1729086192,
+        "ifHcOctetsin": 3799933,
+        "ifHcOctetsOut": 389852
+    },
+    "28": {
+        "timestamp": 1729086197,
+        "ifHcOctetsin": 3800861,
+        "ifHcOctetsOut": 390032
+    },
+    "29": {
+        "timestamp": 1729086202,
+        "ifHcOctetsin": 3802697,
+        "ifHcOctetsOut": 390212
+    },
+    "30": {
+        "timestamp": 1729086207,
+        "ifHcOctetsin": 3804704,
+        "ifHcOctetsOut": 390452
+    },
+    "31": {
+        "timestamp": 1729086212,
+        "ifHcOctetsin": 3805388,
+        "ifHcOctetsOut": 390632
+    },
+    "32": {
+        "timestamp": 1729086217,
+        "ifHcOctetsin": 3806889,
+        "ifHcOctetsOut": 390872
+    },
+    "33": {
+        "timestamp": 1729086222,
+        "ifHcOctetsin": 3807999,
+        "ifHcOctetsOut": 391052
+    },
+    "34": {
+        "timestamp": 1729086228,
+        "ifHcOctetsin": 3809863,
+        "ifHcOctetsOut": 391232
+    },
+    "35": {
+        "timestamp": 1729086233,
+        "ifHcOctetsin": 3810580,
+        "ifHcOctetsOut": 391412
+    },
+    "36": {
+        "timestamp": 1729086238,
+        "ifHcOctetsin": 3812284,
+        "ifHcOctetsOut": 391592
+    },
+    "37": {
+        "timestamp": 1729086243,
+        "ifHcOctetsin": 3813538,
+        "ifHcOctetsOut": 391772
+    },
+    "38": {
+        "timestamp": 1729086248,
+        "ifHcOctetsin": 3814801,
+        "ifHcOctetsOut": 391952
+    },
+    "39": {
+        "timestamp": 1729086253,
+        "ifHcOctetsin": 3815575,
+        "ifHcOctetsOut": 392132
+    },
+    "40": {
+        "timestamp": 1729086258,
+        "ifHcOctetsin": 3817412,
+        "ifHcOctetsOut": 392432
+    },
+    "41": {
+        "timestamp": 1729086264,
+        "ifHcOctetsin": 3819002,
+        "ifHcOctetsOut": 392612
+    },
+    "42": {
+        "timestamp": 1729086269,
+        "ifHcOctetsin": 3819416,
+        "ifHcOctetsOut": 392792
+    },
+    "43": {
+        "timestamp": 1729086274,
+        "ifHcOctetsin": 3820370,
+        "ifHcOctetsOut": 392972
+    },
+    "44": {
+        "timestamp": 1729086279,
+        "ifHcOctetsin": 3822537,
+        "ifHcOctetsOut": 393152
+    },
+    "45": {
+        "timestamp": 1729086284,
+        "ifHcOctetsin": 3823011,
+        "ifHcOctetsOut": 393332
+    },
+    "46": {
+        "timestamp": 1729086289,
+        "ifHcOctetsin": 3824609,
+        "ifHcOctetsOut": 393512
+    },
+    "47": {
+        "timestamp": 1729086294,
+        "ifHcOctetsin": 3826469,
+        "ifHcOctetsOut": 393692
+    },
+    "48": {
+        "timestamp": 1729086299,
+        "ifHcOctetsin": 3827497,
+        "ifHcOctetsOut": 393932
+    },
+    "49": {
+        "timestamp": 1729086305,
+        "ifHcOctetsin": 3830470,
+        "ifHcOctetsOut": 394112
+    },
+    "50": {
+        "timestamp": 1729086310,
+        "ifHcOctetsin": 3832552,
+        "ifHcOctetsOut": 394352
+    },
+    "51": {
+        "timestamp": 1729086315,
+        "ifHcOctetsin": 3834203,
+        "ifHcOctetsOut": 394532
+    },
+    "52": {
+        "timestamp": 1729086320,
+        "ifHcOctetsin": 3834737,
+        "ifHcOctetsOut": 394712
+    },
+    "53": {
+        "timestamp": 1729086325,
+        "ifHcOctetsin": 3836621,
+        "ifHcOctetsOut": 394892
+    },
+    "54": {
+        "timestamp": 1729086330,
+        "ifHcOctetsin": 3837609,
+        "ifHcOctetsOut": 395072
+    },
+    "55": {
+        "timestamp": 1729086336,
+        "ifHcOctetsin": 3839117,
+        "ifHcOctetsOut": 395402
+    },
+    "56": {
+        "timestamp": 1729086341,
+        "ifHcOctetsin": 3840619,
+        "ifHcOctetsOut": 395492
+    },
+    "57": {
+        "timestamp": 1729086346,
+        "ifHcOctetsin": 3841549,
+        "ifHcOctetsOut": 395672
+    },
+    "58": {
+        "timestamp": 1729086351,
+        "ifHcOctetsin": 3842836,
+        "ifHcOctetsOut": 395852
+    },
+    "59": {
+        "timestamp": 1729086356,
+        "ifHcOctetsin": 3844350,
+        "ifHcOctetsOut": 396092
+    }
+}

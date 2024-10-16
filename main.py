@@ -78,6 +78,7 @@ def createJsonFile(hostname, ipAddress, communityString, OID_list):
         json.dump(myJson, json_file, indent=4)
 
     print(f"Device added successfully with ID {random_value}")
+    threading.Thread(target=collect_data_for_device, args=(ipAddress, communityString, OID_list, f"{dataFilePath}\\\\{str_random}.json"), daemon=True).start()
 
     
 
@@ -110,19 +111,20 @@ def get_name_from_oid(oid):
 
 def collect_data_for_device(device_ip, community_string, oids, data_file_path):
     
+    print(f"Collecting data for{device_ip} with community string {community_string} and OIDs {oids}")
     ##Check if data file exist
-    if  os.path.isfile(data_file_path):
+    try:
         with open(data_file_path, 'r') as file:
             data = json.load(file)
+            if not isinstance(data, dict):
+                data = {}
             entry_id = len(data) + 1
-    else:
+    except (json.JSONDecodeError, FileNotFoundError):
         data = {}
         entry_id = 1
     
       # Dictionary to store data with timestamps
       # Counter for entries
-
-
 
     while True:
         current_data = {"timestamp": int(time.time())}  # Get the current timestamp
@@ -149,6 +151,7 @@ def collect_data_for_device(device_ip, community_string, oids, data_file_path):
                     current_data[f"{snmp_name}"] = current_value  # Store current value using SNMP name
 
         # Add the current data to the dictionary with an incremental ID
+        print(entry_id)
         data[entry_id] = current_data
         entry_id += 1
         
