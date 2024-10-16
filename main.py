@@ -206,11 +206,11 @@ def submit_Device():
 
 
 @app.route('/salut')
-def index():
+def returnData():
     return render_template('data.html')
 
 #API qui renvoi les données
-@app.route('/dataDevices')
+@app.route('/devicesData')
 def getDataFromDevices():
     deviceId = request.args.get('id')
     with open(os.path.join(dataFilePath,str(deviceId)+'.json'),'r') as file:

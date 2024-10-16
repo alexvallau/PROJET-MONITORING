@@ -1,27 +1,27 @@
 {
     "1": {
-        "timestamp": 1728659441,
-        "ifHcOctetsin": 3531308,
-        "RAMRemaining": 3812220
+        "timestamp": 1729078109,
+        "ifHcOctetsin": 502871,
+        "RAMRemaining": 3774544
     },
     "2": {
-        "timestamp": 1728659446,
-        "ifHcOctetsin": 3533170,
-        "RAMRemaining": 3812220
+        "timestamp": 1729078114,
+        "ifHcOctetsin": 504661,
+        "RAMRemaining": 3774544
     },
     "3": {
-        "timestamp": 1728659451,
-        "ifHcOctetsin": 3535448,
-        "RAMRemaining": 3812220
+        "timestamp": 1729078119,
+        "ifHcOctetsin": 510407,
+        "RAMRemaining": 3777388
     },
     "4": {
-        "timestamp": 1728659456,
-        "ifHcOctetsin": 3536592,
-        "RAMRemaining": 3812220
+        "timestamp": 1729078125,
+        "ifHcOctetsin": 511935,
+        "RAMRemaining": 3778652
     },
     "5": {
-        "timestamp": 1728659461,
-        "ifHcOctetsin": 3538815,
-        "RAMRemaining": 3812220
+        "timestamp": 1729078130,
+        "ifHcOctetsin": 516011,
+        "RAMRemaining": 3778652
     }
 }
