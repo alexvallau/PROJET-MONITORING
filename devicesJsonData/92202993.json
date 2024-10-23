@@ -8563,5 +8563,30 @@
         "timestamp": 1729688367,
         "ifHcOctetsin": 3562474,
         "RAMRemaining": 3766688
+    },
+    "1714": {
+        "timestamp": 1729688493,
+        "ifHcOctetsin": 3603974,
+        "RAMRemaining": 3766688
+    },
+    "1715": {
+        "timestamp": 1729688494,
+        "ifHcOctetsin": 3603974,
+        "RAMRemaining": 3766688
+    },
+    "1716": {
+        "timestamp": 1729688500,
+        "ifHcOctetsin": 3605222,
+        "RAMRemaining": 3766688
+    },
+    "1717": {
+        "timestamp": 1729688505,
+        "ifHcOctetsin": 3607829,
+        "RAMRemaining": 3766688
+    },
+    "1718": {
+        "timestamp": 1729688510,
+        "ifHcOctetsin": 3609657,
+        "RAMRemaining": 3766688
     }
 }

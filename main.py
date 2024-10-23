@@ -11,9 +11,6 @@ from functions import *
 
 app = Flask(__name__)
 
-
-
-
 @app.route('/add')
 def create_Device():
     return render_template('addDevice.html')
