@@ -173,11 +173,23 @@ def start_snmp_threads():
         # Démarrer un thread pour chaque appareil
         threading.Thread(target=collect_data_for_device, args=(device_ip, community_string, oids, dataFilePath), daemon=True).start()
 
-
+def recup_oid(id):
+    with open(confFilePath, 'r') as fp:
+        devices = json.load(fp)
+        if id in devices : 
+            return devices[id]["OID"]
+        else : 
+            return 0
 
 @app.route('/test')
 def please():
-    return getDevicesIdFromJsonConfFile()
+    oid_list = recup_oid(str(92202993))
+    name_list = []
+    for oid in oid_list :
+        name = get_name_from_oid(oid)
+        name_list.append(name)
+    return name_list
+    
 
 @app.route('/add')
 def create_Device():

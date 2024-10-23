@@ -1,3 +1,7 @@
+function recupOID(ID){
+    
+}
+
 async function fetchData() {
     const url = 'http://127.0.0.1:5000/devicesData?id=92202993';
     try {
