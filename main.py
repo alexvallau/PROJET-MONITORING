@@ -60,6 +60,9 @@ def please():
     return name_list
 
 #API qui renvoi les données
+
+
+## A
 @app.route('/devicesData')
 def getDataFromDevices():
     deviceId = request.args.get('id')
@@ -67,7 +70,6 @@ def getDataFromDevices():
         jsonData = json.load(file)
     return jsonData
 
-## A
 @app.route('/devices')
 def devices():
     # Load the devices data
@@ -78,9 +80,14 @@ def devices():
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    # Load the devices data
+    with open(confFilePath, 'r') as f:
+        devices_data = json.load(f)
+    # Pass the updated devices data to the HTML template
+    return render_template('index.html', devices=devices_data)
 
 if __name__ == '__main__':
 
     start_snmp_threads()
-    app.run(debug=True)
+   
+    app.run(debug=True,host='0.0.0.0')
