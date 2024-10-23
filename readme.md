@@ -59,7 +59,7 @@ L'application pourra se découper en 4 grandes parties.
 * L'affichage des données 
 
 Nous vous proposons dans un premier temps un schéma résumant notre application:
-![Alt text](Projet-Monitoring.jpg)
+![Alt text](Projet-Monitoring.png)
 
 
 Au sein du code, nous distinguerons 3 grandes parties.
