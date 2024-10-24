@@ -3181,5 +3181,2195 @@
         "timestamp": 1729688510,
         "ifHcOctetsin": 3904465,
         "ifHcOctetsOut": 523155
+    },
+    "638": {
+        "timestamp": 1729690031,
+        "ifHcOctetsin": 4666016,
+        "ifHcOctetsOut": 743834
+    },
+    "639": {
+        "timestamp": 1729690032,
+        "ifHcOctetsin": 4666016,
+        "ifHcOctetsOut": 743834
+    },
+    "640": {
+        "timestamp": 1729690038,
+        "ifHcOctetsin": 4669566,
+        "ifHcOctetsOut": 745700
+    },
+    "641": {
+        "timestamp": 1729690043,
+        "ifHcOctetsin": 4674430,
+        "ifHcOctetsOut": 748020
+    },
+    "642": {
+        "timestamp": 1729690048,
+        "ifHcOctetsin": 4680080,
+        "ifHcOctetsOut": 749886
+    },
+    "643": {
+        "timestamp": 1729690053,
+        "ifHcOctetsin": 4683437,
+        "ifHcOctetsOut": 751149
+    },
+    "644": {
+        "timestamp": 1729690059,
+        "ifHcOctetsin": 4686785,
+        "ifHcOctetsOut": 753104
+    },
+    "645": {
+        "timestamp": 1729690064,
+        "ifHcOctetsin": 4690417,
+        "ifHcOctetsOut": 755364
+    },
+    "646": {
+        "timestamp": 1729690069,
+        "ifHcOctetsin": 4692311,
+        "ifHcOctetsOut": 756265
+    },
+    "647": {
+        "timestamp": 1729690074,
+        "ifHcOctetsin": 4697777,
+        "ifHcOctetsOut": 758253
+    },
+    "648": {
+        "timestamp": 1729690079,
+        "ifHcOctetsin": 4701319,
+        "ifHcOctetsOut": 760301
+    },
+    "649": {
+        "timestamp": 1729690084,
+        "ifHcOctetsin": 4705632,
+        "ifHcOctetsOut": 762708
+    },
+    "650": {
+        "timestamp": 1729690089,
+        "ifHcOctetsin": 4706720,
+        "ifHcOctetsOut": 763337
+    },
+    "651": {
+        "timestamp": 1729690095,
+        "ifHcOctetsin": 4709786,
+        "ifHcOctetsOut": 765385
+    },
+    "652": {
+        "timestamp": 1729690100,
+        "ifHcOctetsin": 4714619,
+        "ifHcOctetsOut": 767736
+    },
+    "653": {
+        "timestamp": 1729690105,
+        "ifHcOctetsin": 4717108,
+        "ifHcOctetsOut": 768815
+    },
+    "654": {
+        "timestamp": 1729690110,
+        "ifHcOctetsin": 4722914,
+        "ifHcOctetsOut": 770681
+    },
+    "655": {
+        "timestamp": 1729690115,
+        "ifHcOctetsin": 4726460,
+        "ifHcOctetsOut": 772729
+    },
+    "656": {
+        "timestamp": 1729690120,
+        "ifHcOctetsin": 4730660,
+        "ifHcOctetsOut": 774898
+    },
+    "657": {
+        "timestamp": 1729690125,
+        "ifHcOctetsin": 4732489,
+        "ifHcOctetsOut": 775979
+    },
+    "658": {
+        "timestamp": 1729690130,
+        "ifHcOctetsin": 4736185,
+        "ifHcOctetsOut": 777965
+    },
+    "659": {
+        "timestamp": 1729690136,
+        "ifHcOctetsin": 4739611,
+        "ifHcOctetsOut": 780073
+    },
+    "660": {
+        "timestamp": 1729690141,
+        "ifHcOctetsin": 4741872,
+        "ifHcOctetsOut": 781248
+    },
+    "661": {
+        "timestamp": 1729690146,
+        "ifHcOctetsin": 4745802,
+        "ifHcOctetsOut": 783383
+    },
+    "662": {
+        "timestamp": 1729690151,
+        "ifHcOctetsin": 4749944,
+        "ifHcOctetsOut": 785551
+    },
+    "663": {
+        "timestamp": 1729690156,
+        "ifHcOctetsin": 4754694,
+        "ifHcOctetsOut": 787357
+    },
+    "664": {
+        "timestamp": 1729690161,
+        "ifHcOctetsin": 4756554,
+        "ifHcOctetsOut": 788410
+    },
+    "665": {
+        "timestamp": 1729690166,
+        "ifHcOctetsin": 4760640,
+        "ifHcOctetsOut": 790549
+    },
+    "666": {
+        "timestamp": 1729690172,
+        "ifHcOctetsin": 4764235,
+        "ifHcOctetsOut": 792446
+    },
+    "667": {
+        "timestamp": 1729690177,
+        "ifHcOctetsin": 4766330,
+        "ifHcOctetsOut": 793616
+    },
+    "668": {
+        "timestamp": 1729690182,
+        "ifHcOctetsin": 4771199,
+        "ifHcOctetsOut": 795422
+    },
+    "669": {
+        "timestamp": 1729690187,
+        "ifHcOctetsin": 4775164,
+        "ifHcOctetsOut": 797742
+    },
+    "670": {
+        "timestamp": 1729690192,
+        "ifHcOctetsin": 4780722,
+        "ifHcOctetsOut": 799699
+    },
+    "671": {
+        "timestamp": 1729690197,
+        "ifHcOctetsin": 4783321,
+        "ifHcOctetsOut": 801020
+    },
+    "672": {
+        "timestamp": 1729690203,
+        "ifHcOctetsin": 4786750,
+        "ifHcOctetsOut": 802826
+    },
+    "673": {
+        "timestamp": 1729690208,
+        "ifHcOctetsin": 4790533,
+        "ifHcOctetsOut": 804994
+    },
+    "674": {
+        "timestamp": 1729690213,
+        "ifHcOctetsin": 4792377,
+        "ifHcOctetsOut": 806529
+    },
+    "675": {
+        "timestamp": 1729690218,
+        "ifHcOctetsin": 4796041,
+        "ifHcOctetsOut": 808575
+    },
+    "676": {
+        "timestamp": 1729690223,
+        "ifHcOctetsin": 4800691,
+        "ifHcOctetsOut": 810833
+    },
+    "677": {
+        "timestamp": 1729690228,
+        "ifHcOctetsin": 4805482,
+        "ifHcOctetsOut": 813238
+    },
+    "678": {
+        "timestamp": 1729690234,
+        "ifHcOctetsin": 4807544,
+        "ifHcOctetsOut": 814593
+    },
+    "679": {
+        "timestamp": 1729690239,
+        "ifHcOctetsin": 4811088,
+        "ifHcOctetsOut": 816639
+    },
+    "680": {
+        "timestamp": 1729690244,
+        "ifHcOctetsin": 4815528,
+        "ifHcOctetsOut": 818867
+    },
+    "681": {
+        "timestamp": 1729690249,
+        "ifHcOctetsin": 4817299,
+        "ifHcOctetsOut": 819768
+    },
+    "682": {
+        "timestamp": 1729690254,
+        "ifHcOctetsin": 4821034,
+        "ifHcOctetsOut": 821754
+    },
+    "683": {
+        "timestamp": 1729690259,
+        "ifHcOctetsin": 4825561,
+        "ifHcOctetsOut": 823089
+    },
+    "684": {
+        "timestamp": 1729690264,
+        "ifHcOctetsin": 4828046,
+        "ifHcOctetsOut": 824352
+    },
+    "685": {
+        "timestamp": 1729690270,
+        "ifHcOctetsin": 4829442,
+        "ifHcOctetsOut": 824894
+    },
+    "686": {
+        "timestamp": 1729690275,
+        "ifHcOctetsin": 4833430,
+        "ifHcOctetsOut": 826156
+    },
+    "687": {
+        "timestamp": 1729690280,
+        "ifHcOctetsin": 4835976,
+        "ifHcOctetsOut": 827421
+    },
+    "688": {
+        "timestamp": 1729690285,
+        "ifHcOctetsin": 4837791,
+        "ifHcOctetsOut": 828053
+    },
+    "689": {
+        "timestamp": 1729690290,
+        "ifHcOctetsin": 4841270,
+        "ifHcOctetsOut": 829465
+    },
+    "690": {
+        "timestamp": 1729690295,
+        "ifHcOctetsin": 4844828,
+        "ifHcOctetsOut": 830790
+    },
+    "691": {
+        "timestamp": 1729690300,
+        "ifHcOctetsin": 4850171,
+        "ifHcOctetsOut": 832053
+    },
+    "692": {
+        "timestamp": 1729690306,
+        "ifHcOctetsin": 4853099,
+        "ifHcOctetsOut": 832505
+    },
+    "693": {
+        "timestamp": 1729690311,
+        "ifHcOctetsin": 4856326,
+        "ifHcOctetsOut": 833857
+    },
+    "694": {
+        "timestamp": 1729690316,
+        "ifHcOctetsin": 4859113,
+        "ifHcOctetsOut": 835122
+    },
+    "695": {
+        "timestamp": 1729690321,
+        "ifHcOctetsin": 4860384,
+        "ifHcOctetsOut": 835754
+    },
+    "696": {
+        "timestamp": 1729690326,
+        "ifHcOctetsin": 4863895,
+        "ifHcOctetsOut": 836837
+    },
+    "697": {
+        "timestamp": 1729690331,
+        "ifHcOctetsin": 4866698,
+        "ifHcOctetsOut": 838371
+    },
+    "698": {
+        "timestamp": 1729690336,
+        "ifHcOctetsin": 4869243,
+        "ifHcOctetsOut": 839694
+    },
+    "699": {
+        "timestamp": 1729690342,
+        "ifHcOctetsin": 4870160,
+        "ifHcOctetsOut": 840146
+    },
+    "700": {
+        "timestamp": 1729690347,
+        "ifHcOctetsin": 4873071,
+        "ifHcOctetsOut": 841289
+    },
+    "701": {
+        "timestamp": 1729690352,
+        "ifHcOctetsin": 4876630,
+        "ifHcOctetsOut": 842823
+    },
+    "702": {
+        "timestamp": 1729690357,
+        "ifHcOctetsin": 4878085,
+        "ifHcOctetsOut": 843455
+    },
+    "703": {
+        "timestamp": 1729690362,
+        "ifHcOctetsin": 4880812,
+        "ifHcOctetsOut": 844538
+    },
+    "704": {
+        "timestamp": 1729690367,
+        "ifHcOctetsin": 4883893,
+        "ifHcOctetsOut": 845983
+    },
+    "705": {
+        "timestamp": 1729690372,
+        "ifHcOctetsin": 4886947,
+        "ifHcOctetsOut": 847335
+    },
+    "706": {
+        "timestamp": 1729690378,
+        "ifHcOctetsin": 4887924,
+        "ifHcOctetsOut": 847847
+    },
+    "707": {
+        "timestamp": 1729690383,
+        "ifHcOctetsin": 4890747,
+        "ifHcOctetsOut": 848930
+    },
+    "708": {
+        "timestamp": 1729690388,
+        "ifHcOctetsin": 4893701,
+        "ifHcOctetsOut": 850614
+    },
+    "709": {
+        "timestamp": 1729690393,
+        "ifHcOctetsin": 4895462,
+        "ifHcOctetsOut": 850884
+    },
+    "710": {
+        "timestamp": 1729690398,
+        "ifHcOctetsin": 4899569,
+        "ifHcOctetsOut": 852329
+    },
+    "711": {
+        "timestamp": 1729690403,
+        "ifHcOctetsin": 4903352,
+        "ifHcOctetsOut": 853714
+    },
+    "712": {
+        "timestamp": 1729690408,
+        "ifHcOctetsin": 4908264,
+        "ifHcOctetsOut": 855306
+    },
+    "713": {
+        "timestamp": 1729690414,
+        "ifHcOctetsin": 4910027,
+        "ifHcOctetsOut": 855758
+    },
+    "714": {
+        "timestamp": 1729690419,
+        "ifHcOctetsin": 4914281,
+        "ifHcOctetsOut": 856841
+    },
+    "715": {
+        "timestamp": 1729690424,
+        "ifHcOctetsin": 4920004,
+        "ifHcOctetsOut": 858106
+    },
+    "716": {
+        "timestamp": 1729690429,
+        "ifHcOctetsin": 4922514,
+        "ifHcOctetsOut": 858735
+    },
+    "717": {
+        "timestamp": 1729690434,
+        "ifHcOctetsin": 4929420,
+        "ifHcOctetsOut": 860090
+    },
+    "718": {
+        "timestamp": 1729690440,
+        "ifHcOctetsin": 4932975,
+        "ifHcOctetsOut": 861475
+    },
+    "719": {
+        "timestamp": 1729690445,
+        "ifHcOctetsin": 4937035,
+        "ifHcOctetsOut": 862738
+    },
+    "720": {
+        "timestamp": 1729690450,
+        "ifHcOctetsin": 4938372,
+        "ifHcOctetsOut": 863187
+    },
+    "721": {
+        "timestamp": 1729690455,
+        "ifHcOctetsin": 4942767,
+        "ifHcOctetsOut": 864542
+    },
+    "722": {
+        "timestamp": 1729690460,
+        "ifHcOctetsin": 4945610,
+        "ifHcOctetsOut": 865807
+    },
+    "723": {
+        "timestamp": 1729690466,
+        "ifHcOctetsin": 4948002,
+        "ifHcOctetsOut": 867160
+    },
+    "724": {
+        "timestamp": 1729690471,
+        "ifHcOctetsin": 4949965,
+        "ifHcOctetsOut": 868572
+    },
+    "725": {
+        "timestamp": 1729690476,
+        "ifHcOctetsin": 4955635,
+        "ifHcOctetsOut": 869116
+    },
+    "726": {
+        "timestamp": 1729690482,
+        "ifHcOctetsin": 4959093,
+        "ifHcOctetsOut": 870379
+    },
+    "727": {
+        "timestamp": 1729690487,
+        "ifHcOctetsin": 4962687,
+        "ifHcOctetsOut": 871731
+    },
+    "728": {
+        "timestamp": 1729690492,
+        "ifHcOctetsin": 4964198,
+        "ifHcOctetsOut": 871971
+    },
+    "729": {
+        "timestamp": 1729690497,
+        "ifHcOctetsin": 4967428,
+        "ifHcOctetsOut": 873568
+    },
+    "730": {
+        "timestamp": 1729690502,
+        "ifHcOctetsin": 4972312,
+        "ifHcOctetsOut": 874831
+    },
+    "731": {
+        "timestamp": 1729690507,
+        "ifHcOctetsin": 4977193,
+        "ifHcOctetsOut": 876183
+    },
+    "732": {
+        "timestamp": 1729690512,
+        "ifHcOctetsin": 4979563,
+        "ifHcOctetsOut": 876363
+    },
+    "733": {
+        "timestamp": 1729690518,
+        "ifHcOctetsin": 4983723,
+        "ifHcOctetsOut": 878080
+    },
+    "734": {
+        "timestamp": 1729690523,
+        "ifHcOctetsin": 4987114,
+        "ifHcOctetsOut": 879163
+    },
+    "735": {
+        "timestamp": 1729690528,
+        "ifHcOctetsin": 4988508,
+        "ifHcOctetsOut": 879612
+    },
+    "736": {
+        "timestamp": 1729690533,
+        "ifHcOctetsin": 4991225,
+        "ifHcOctetsOut": 881117
+    },
+    "737": {
+        "timestamp": 1729690538,
+        "ifHcOctetsin": 4994399,
+        "ifHcOctetsOut": 882532
+    },
+    "738": {
+        "timestamp": 1729690544,
+        "ifHcOctetsin": 4998330,
+        "ifHcOctetsOut": 883615
+    },
+    "739": {
+        "timestamp": 1729690549,
+        "ifHcOctetsin": 5000240,
+        "ifHcOctetsOut": 884064
+    },
+    "740": {
+        "timestamp": 1729690554,
+        "ifHcOctetsin": 5003716,
+        "ifHcOctetsOut": 885781
+    },
+    "741": {
+        "timestamp": 1729690559,
+        "ifHcOctetsin": 5007057,
+        "ifHcOctetsOut": 886924
+    },
+    "742": {
+        "timestamp": 1729690564,
+        "ifHcOctetsin": 5011346,
+        "ifHcOctetsOut": 888276
+    },
+    "743": {
+        "timestamp": 1729690570,
+        "ifHcOctetsin": 5012841,
+        "ifHcOctetsOut": 888546
+    },
+    "744": {
+        "timestamp": 1729690575,
+        "ifHcOctetsin": 5016708,
+        "ifHcOctetsOut": 890173
+    },
+    "745": {
+        "timestamp": 1729690580,
+        "ifHcOctetsin": 5020535,
+        "ifHcOctetsOut": 891256
+    },
+    "746": {
+        "timestamp": 1729690585,
+        "ifHcOctetsin": 5022170,
+        "ifHcOctetsOut": 891705
+    },
+    "747": {
+        "timestamp": 1729690590,
+        "ifHcOctetsin": 5025324,
+        "ifHcOctetsOut": 893360
+    },
+    "748": {
+        "timestamp": 1729690596,
+        "ifHcOctetsin": 5030545,
+        "ifHcOctetsOut": 894625
+    },
+    "749": {
+        "timestamp": 1729690601,
+        "ifHcOctetsin": 5036362,
+        "ifHcOctetsOut": 895708
+    },
+    "750": {
+        "timestamp": 1729690606,
+        "ifHcOctetsin": 5039284,
+        "ifHcOctetsOut": 896337
+    },
+    "751": {
+        "timestamp": 1729690611,
+        "ifHcOctetsin": 5043871,
+        "ifHcOctetsOut": 897783
+    },
+    "752": {
+        "timestamp": 1729690616,
+        "ifHcOctetsin": 5050458,
+        "ifHcOctetsOut": 898957
+    },
+    "753": {
+        "timestamp": 1729690621,
+        "ifHcOctetsin": 5054840,
+        "ifHcOctetsOut": 900309
+    },
+    "754": {
+        "timestamp": 1729690627,
+        "ifHcOctetsin": 5056374,
+        "ifHcOctetsOut": 900669
+    },
+    "755": {
+        "timestamp": 1729690632,
+        "ifHcOctetsin": 5060519,
+        "ifHcOctetsOut": 902206
+    },
+    "756": {
+        "timestamp": 1729690637,
+        "ifHcOctetsin": 5063782,
+        "ifHcOctetsOut": 903289
+    },
+    "757": {
+        "timestamp": 1729690642,
+        "ifHcOctetsin": 5069673,
+        "ifHcOctetsOut": 904761
+    },
+    "758": {
+        "timestamp": 1729690648,
+        "ifHcOctetsin": 5071803,
+        "ifHcOctetsOut": 905212
+    },
+    "759": {
+        "timestamp": 1729690653,
+        "ifHcOctetsin": 5074761,
+        "ifHcOctetsOut": 906658
+    },
+    "760": {
+        "timestamp": 1729690658,
+        "ifHcOctetsin": 5077348,
+        "ifHcOctetsOut": 907741
+    },
+    "761": {
+        "timestamp": 1729690663,
+        "ifHcOctetsin": 5078804,
+        "ifHcOctetsOut": 909183
+    },
+    "762": {
+        "timestamp": 1729690668,
+        "ifHcOctetsin": 5083891,
+        "ifHcOctetsOut": 909725
+    },
+    "763": {
+        "timestamp": 1729690674,
+        "ifHcOctetsin": 5089470,
+        "ifHcOctetsOut": 910990
+    },
+    "764": {
+        "timestamp": 1729690679,
+        "ifHcOctetsin": 5092857,
+        "ifHcOctetsOut": 912073
+    },
+    "765": {
+        "timestamp": 1729690684,
+        "ifHcOctetsin": 5098011,
+        "ifHcOctetsOut": 913515
+    },
+    "766": {
+        "timestamp": 1729690690,
+        "ifHcOctetsin": 5101751,
+        "ifHcOctetsOut": 914057
+    },
+    "767": {
+        "timestamp": 1729690695,
+        "ifHcOctetsin": 5106458,
+        "ifHcOctetsOut": 915442
+    },
+    "768": {
+        "timestamp": 1729690700,
+        "ifHcOctetsin": 5109005,
+        "ifHcOctetsOut": 916525
+    },
+    "769": {
+        "timestamp": 1729690705,
+        "ifHcOctetsin": 5111216,
+        "ifHcOctetsOut": 917877
+    },
+    "770": {
+        "timestamp": 1729690711,
+        "ifHcOctetsin": 5113475,
+        "ifHcOctetsOut": 918691
+    },
+    "771": {
+        "timestamp": 1729690716,
+        "ifHcOctetsin": 5117466,
+        "ifHcOctetsOut": 919774
+    },
+    "772": {
+        "timestamp": 1729690721,
+        "ifHcOctetsin": 5121425,
+        "ifHcOctetsOut": 920857
+    },
+    "773": {
+        "timestamp": 1729690726,
+        "ifHcOctetsin": 5126897,
+        "ifHcOctetsOut": 922209
+    },
+    "774": {
+        "timestamp": 1729690732,
+        "ifHcOctetsin": 5129848,
+        "ifHcOctetsOut": 922932
+    },
+    "775": {
+        "timestamp": 1729690737,
+        "ifHcOctetsin": 5132911,
+        "ifHcOctetsOut": 924106
+    },
+    "776": {
+        "timestamp": 1729690742,
+        "ifHcOctetsin": 5135341,
+        "ifHcOctetsOut": 925399
+    },
+    "777": {
+        "timestamp": 1729690747,
+        "ifHcOctetsin": 5136226,
+        "ifHcOctetsOut": 926751
+    },
+    "778": {
+        "timestamp": 1729690753,
+        "ifHcOctetsin": 5141735,
+        "ifHcOctetsOut": 927475
+    },
+    "779": {
+        "timestamp": 1729690758,
+        "ifHcOctetsin": 5144766,
+        "ifHcOctetsOut": 928558
+    },
+    "780": {
+        "timestamp": 1729690763,
+        "ifHcOctetsin": 5147979,
+        "ifHcOctetsOut": 929821
+    },
+    "781": {
+        "timestamp": 1729690768,
+        "ifHcOctetsin": 5149373,
+        "ifHcOctetsOut": 930452
+    },
+    "782": {
+        "timestamp": 1729690773,
+        "ifHcOctetsin": 5152007,
+        "ifHcOctetsOut": 931807
+    },
+    "783": {
+        "timestamp": 1729690778,
+        "ifHcOctetsin": 5157738,
+        "ifHcOctetsOut": 932890
+    },
+    "784": {
+        "timestamp": 1729690784,
+        "ifHcOctetsin": 5160980,
+        "ifHcOctetsOut": 934153
+    },
+    "785": {
+        "timestamp": 1729690789,
+        "ifHcOctetsin": 5163734,
+        "ifHcOctetsOut": 934602
+    },
+    "786": {
+        "timestamp": 1729690794,
+        "ifHcOctetsin": 5169013,
+        "ifHcOctetsOut": 935987
+    },
+    "787": {
+        "timestamp": 1729690799,
+        "ifHcOctetsin": 5171823,
+        "ifHcOctetsOut": 937342
+    },
+    "788": {
+        "timestamp": 1729690805,
+        "ifHcOctetsin": 5175154,
+        "ifHcOctetsOut": 938425
+    },
+    "789": {
+        "timestamp": 1729690810,
+        "ifHcOctetsin": 5176122,
+        "ifHcOctetsOut": 939957
+    },
+    "790": {
+        "timestamp": 1729690816,
+        "ifHcOctetsin": 5180085,
+        "ifHcOctetsOut": 940319
+    },
+    "791": {
+        "timestamp": 1729690821,
+        "ifHcOctetsin": 5182955,
+        "ifHcOctetsOut": 941674
+    },
+    "792": {
+        "timestamp": 1729690826,
+        "ifHcOctetsin": 5185788,
+        "ifHcOctetsOut": 942757
+    },
+    "793": {
+        "timestamp": 1729690831,
+        "ifHcOctetsin": 5187656,
+        "ifHcOctetsOut": 944199
+    },
+    "794": {
+        "timestamp": 1729690837,
+        "ifHcOctetsin": 5191283,
+        "ifHcOctetsOut": 944651
+    },
+    "795": {
+        "timestamp": 1729690842,
+        "ifHcOctetsin": 5195392,
+        "ifHcOctetsOut": 946006
+    },
+    "796": {
+        "timestamp": 1729690847,
+        "ifHcOctetsin": 5200181,
+        "ifHcOctetsOut": 947209
+    },
+    "797": {
+        "timestamp": 1729690852,
+        "ifHcOctetsin": 5201460,
+        "ifHcOctetsOut": 947838
+    },
+    "798": {
+        "timestamp": 1729690857,
+        "ifHcOctetsin": 5204094,
+        "ifHcOctetsOut": 949193
+    },
+    "799": {
+        "timestamp": 1729690863,
+        "ifHcOctetsin": 5206313,
+        "ifHcOctetsOut": 950458
+    },
+    "800": {
+        "timestamp": 1729690868,
+        "ifHcOctetsin": 5207844,
+        "ifHcOctetsOut": 951541
+    },
+    "801": {
+        "timestamp": 1729690873,
+        "ifHcOctetsin": 5209112,
+        "ifHcOctetsOut": 952170
+    },
+    "802": {
+        "timestamp": 1729690878,
+        "ifHcOctetsin": 5211506,
+        "ifHcOctetsOut": 953525
+    },
+    "803": {
+        "timestamp": 1729690883,
+        "ifHcOctetsin": 5214365,
+        "ifHcOctetsOut": 954790
+    },
+    "804": {
+        "timestamp": 1729690889,
+        "ifHcOctetsin": 5217380,
+        "ifHcOctetsOut": 955873
+    },
+    "805": {
+        "timestamp": 1729690894,
+        "ifHcOctetsin": 5219204,
+        "ifHcOctetsOut": 956562
+    },
+    "806": {
+        "timestamp": 1729690899,
+        "ifHcOctetsin": 5222145,
+        "ifHcOctetsOut": 958068
+    },
+    "807": {
+        "timestamp": 1729690904,
+        "ifHcOctetsin": 5226976,
+        "ifHcOctetsOut": 959242
+    },
+    "808": {
+        "timestamp": 1729690909,
+        "ifHcOctetsin": 5228220,
+        "ifHcOctetsOut": 959871
+    },
+    "809": {
+        "timestamp": 1729690914,
+        "ifHcOctetsin": 5230651,
+        "ifHcOctetsOut": 960954
+    },
+    "810": {
+        "timestamp": 1729690919,
+        "ifHcOctetsin": 5233793,
+        "ifHcOctetsOut": 962491
+    },
+    "811": {
+        "timestamp": 1729690925,
+        "ifHcOctetsin": 5236404,
+        "ifHcOctetsOut": 963574
+    },
+    "812": {
+        "timestamp": 1729690930,
+        "ifHcOctetsin": 5238124,
+        "ifHcOctetsOut": 964203
+    },
+    "813": {
+        "timestamp": 1729690935,
+        "ifHcOctetsin": 5240319,
+        "ifHcOctetsOut": 965286
+    },
+    "814": {
+        "timestamp": 1729690940,
+        "ifHcOctetsin": 5243185,
+        "ifHcOctetsOut": 966823
+    },
+    "815": {
+        "timestamp": 1729690945,
+        "ifHcOctetsin": 5244337,
+        "ifHcOctetsOut": 967572
+    },
+    "816": {
+        "timestamp": 1729690950,
+        "ifHcOctetsin": 5246680,
+        "ifHcOctetsOut": 968655
+    },
+    "817": {
+        "timestamp": 1729690956,
+        "ifHcOctetsin": 5249619,
+        "ifHcOctetsOut": 969829
+    },
+    "818": {
+        "timestamp": 1729690961,
+        "ifHcOctetsin": 5252097,
+        "ifHcOctetsOut": 971275
+    },
+    "819": {
+        "timestamp": 1729690966,
+        "ifHcOctetsin": 5253729,
+        "ifHcOctetsOut": 971964
+    },
+    "820": {
+        "timestamp": 1729690971,
+        "ifHcOctetsin": 5256339,
+        "ifHcOctetsOut": 973047
+    },
+    "821": {
+        "timestamp": 1729690976,
+        "ifHcOctetsin": 5259578,
+        "ifHcOctetsOut": 974130
+    },
+    "822": {
+        "timestamp": 1729690981,
+        "ifHcOctetsin": 5261197,
+        "ifHcOctetsOut": 975757
+    },
+    "823": {
+        "timestamp": 1729690987,
+        "ifHcOctetsin": 5263184,
+        "ifHcOctetsOut": 976356
+    },
+    "824": {
+        "timestamp": 1729690992,
+        "ifHcOctetsin": 5265191,
+        "ifHcOctetsOut": 977439
+    },
+    "825": {
+        "timestamp": 1729690997,
+        "ifHcOctetsin": 5267258,
+        "ifHcOctetsOut": 978764
+    },
+    "826": {
+        "timestamp": 1729691002,
+        "ifHcOctetsin": 5268489,
+        "ifHcOctetsOut": 979665
+    },
+    "827": {
+        "timestamp": 1729691007,
+        "ifHcOctetsin": 5272240,
+        "ifHcOctetsOut": 980808
+    },
+    "828": {
+        "timestamp": 1729691012,
+        "ifHcOctetsin": 5275795,
+        "ifHcOctetsOut": 981891
+    },
+    "829": {
+        "timestamp": 1729691018,
+        "ifHcOctetsin": 5279282,
+        "ifHcOctetsOut": 983246
+    },
+    "830": {
+        "timestamp": 1729691023,
+        "ifHcOctetsin": 5281743,
+        "ifHcOctetsOut": 984057
+    },
+    "831": {
+        "timestamp": 1729691028,
+        "ifHcOctetsin": 5283914,
+        "ifHcOctetsOut": 985200
+    },
+    "832": {
+        "timestamp": 1729691033,
+        "ifHcOctetsin": 5286265,
+        "ifHcOctetsOut": 986283
+    },
+    "833": {
+        "timestamp": 1729691038,
+        "ifHcOctetsin": 5288032,
+        "ifHcOctetsOut": 987097
+    },
+    "834": {
+        "timestamp": 1729691043,
+        "ifHcOctetsin": 5294140,
+        "ifHcOctetsOut": 988449
+    },
+    "835": {
+        "timestamp": 1729691049,
+        "ifHcOctetsin": 5298442,
+        "ifHcOctetsOut": 989652
+    },
+    "836": {
+        "timestamp": 1729691054,
+        "ifHcOctetsin": 5303045,
+        "ifHcOctetsOut": 990735
+    },
+    "837": {
+        "timestamp": 1729691059,
+        "ifHcOctetsin": 5305338,
+        "ifHcOctetsOut": 991549
+    },
+    "838": {
+        "timestamp": 1729691064,
+        "ifHcOctetsin": 5310141,
+        "ifHcOctetsOut": 992901
+    },
+    "839": {
+        "timestamp": 1729691069,
+        "ifHcOctetsin": 5315674,
+        "ifHcOctetsOut": 994044
+    },
+    "840": {
+        "timestamp": 1729691074,
+        "ifHcOctetsin": 5317785,
+        "ifHcOctetsOut": 994858
+    },
+    "841": {
+        "timestamp": 1729691079,
+        "ifHcOctetsin": 5321892,
+        "ifHcOctetsOut": 995941
+    },
+    "842": {
+        "timestamp": 1729691084,
+        "ifHcOctetsin": 5325639,
+        "ifHcOctetsOut": 997293
+    },
+    "843": {
+        "timestamp": 1729691090,
+        "ifHcOctetsin": 5328443,
+        "ifHcOctetsOut": 998436
+    },
+    "844": {
+        "timestamp": 1729691095,
+        "ifHcOctetsin": 5330646,
+        "ifHcOctetsOut": 999250
+    },
+    "845": {
+        "timestamp": 1729691100,
+        "ifHcOctetsin": 5335068,
+        "ifHcOctetsOut": 1000573
+    },
+    "846": {
+        "timestamp": 1729691105,
+        "ifHcOctetsin": 5338045,
+        "ifHcOctetsOut": 1001745
+    },
+    "847": {
+        "timestamp": 1729691110,
+        "ifHcOctetsin": 5339944,
+        "ifHcOctetsOut": 1002559
+    },
+    "848": {
+        "timestamp": 1729691115,
+        "ifHcOctetsin": 5345255,
+        "ifHcOctetsOut": 1003702
+    },
+    "849": {
+        "timestamp": 1729691120,
+        "ifHcOctetsin": 5350417,
+        "ifHcOctetsOut": 1005054
+    },
+    "850": {
+        "timestamp": 1729691126,
+        "ifHcOctetsin": 5353718,
+        "ifHcOctetsOut": 1006227
+    },
+    "851": {
+        "timestamp": 1729691131,
+        "ifHcOctetsin": 5358399,
+        "ifHcOctetsOut": 1006951
+    },
+    "852": {
+        "timestamp": 1729691136,
+        "ifHcOctetsin": 5361154,
+        "ifHcOctetsOut": 1008094
+    },
+    "853": {
+        "timestamp": 1729691141,
+        "ifHcOctetsin": 5362897,
+        "ifHcOctetsOut": 1009177
+    },
+    "854": {
+        "timestamp": 1729691146,
+        "ifHcOctetsin": 5364368,
+        "ifHcOctetsOut": 1010260
+    },
+    "855": {
+        "timestamp": 1729691151,
+        "ifHcOctetsin": 5366735,
+        "ifHcOctetsOut": 1011403
+    },
+    "856": {
+        "timestamp": 1729691157,
+        "ifHcOctetsin": 5370366,
+        "ifHcOctetsOut": 1012546
+    },
+    "857": {
+        "timestamp": 1729691162,
+        "ifHcOctetsin": 5373606,
+        "ifHcOctetsOut": 1013629
+    },
+    "858": {
+        "timestamp": 1729691167,
+        "ifHcOctetsin": 5375493,
+        "ifHcOctetsOut": 1014712
+    },
+    "859": {
+        "timestamp": 1729691172,
+        "ifHcOctetsin": 5377892,
+        "ifHcOctetsOut": 1015795
+    },
+    "860": {
+        "timestamp": 1729691178,
+        "ifHcOctetsin": 5380795,
+        "ifHcOctetsOut": 1016938
+    },
+    "861": {
+        "timestamp": 1729691183,
+        "ifHcOctetsin": 5383376,
+        "ifHcOctetsOut": 1018021
+    },
+    "862": {
+        "timestamp": 1729691188,
+        "ifHcOctetsin": 5385399,
+        "ifHcOctetsOut": 1019104
+    },
+    "863": {
+        "timestamp": 1729691194,
+        "ifHcOctetsin": 5388646,
+        "ifHcOctetsOut": 1020187
+    },
+    "864": {
+        "timestamp": 1729691199,
+        "ifHcOctetsin": 5391529,
+        "ifHcOctetsOut": 1021330
+    },
+    "865": {
+        "timestamp": 1729691204,
+        "ifHcOctetsin": 5394747,
+        "ifHcOctetsOut": 1022473
+    },
+    "866": {
+        "timestamp": 1729691209,
+        "ifHcOctetsin": 5396666,
+        "ifHcOctetsOut": 1024005
+    },
+    "867": {
+        "timestamp": 1729691215,
+        "ifHcOctetsin": 5399037,
+        "ifHcOctetsOut": 1024639
+    },
+    "868": {
+        "timestamp": 1729691220,
+        "ifHcOctetsin": 5402424,
+        "ifHcOctetsOut": 1025782
+    },
+    "869": {
+        "timestamp": 1729691225,
+        "ifHcOctetsin": 5403955,
+        "ifHcOctetsOut": 1026865
+    },
+    "870": {
+        "timestamp": 1729691231,
+        "ifHcOctetsin": 5408742,
+        "ifHcOctetsOut": 1028217
+    },
+    "871": {
+        "timestamp": 1729691236,
+        "ifHcOctetsin": 5411153,
+        "ifHcOctetsOut": 1029031
+    },
+    "872": {
+        "timestamp": 1729691241,
+        "ifHcOctetsin": 5414900,
+        "ifHcOctetsOut": 1030114
+    },
+    "873": {
+        "timestamp": 1729691247,
+        "ifHcOctetsin": 5417691,
+        "ifHcOctetsOut": 1031197
+    },
+    "874": {
+        "timestamp": 1729691252,
+        "ifHcOctetsin": 5421474,
+        "ifHcOctetsOut": 1032669
+    },
+    "875": {
+        "timestamp": 1729691257,
+        "ifHcOctetsin": 5422897,
+        "ifHcOctetsOut": 1033483
+    },
+    "876": {
+        "timestamp": 1729691262,
+        "ifHcOctetsin": 5425084,
+        "ifHcOctetsOut": 1034566
+    },
+    "877": {
+        "timestamp": 1729691268,
+        "ifHcOctetsin": 5427251,
+        "ifHcOctetsOut": 1035649
+    },
+    "878": {
+        "timestamp": 1729691273,
+        "ifHcOctetsin": 5430002,
+        "ifHcOctetsOut": 1037001
+    },
+    "879": {
+        "timestamp": 1729691278,
+        "ifHcOctetsin": 5432109,
+        "ifHcOctetsOut": 1037815
+    },
+    "880": {
+        "timestamp": 1729691283,
+        "ifHcOctetsin": 5434939,
+        "ifHcOctetsOut": 1038958
+    },
+    "881": {
+        "timestamp": 1729691288,
+        "ifHcOctetsin": 5437906,
+        "ifHcOctetsOut": 1040041
+    },
+    "882": {
+        "timestamp": 1729691294,
+        "ifHcOctetsin": 5440031,
+        "ifHcOctetsOut": 1041304
+    },
+    "883": {
+        "timestamp": 1729691299,
+        "ifHcOctetsin": 5441504,
+        "ifHcOctetsOut": 1042207
+    },
+    "884": {
+        "timestamp": 1729691304,
+        "ifHcOctetsin": 5443635,
+        "ifHcOctetsOut": 1043290
+    },
+    "885": {
+        "timestamp": 1729691309,
+        "ifHcOctetsin": 5446130,
+        "ifHcOctetsOut": 1044433
+    },
+    "886": {
+        "timestamp": 1729691315,
+        "ifHcOctetsin": 5449695,
+        "ifHcOctetsOut": 1045756
+    },
+    "887": {
+        "timestamp": 1729691320,
+        "ifHcOctetsin": 5452248,
+        "ifHcOctetsOut": 1046659
+    },
+    "888": {
+        "timestamp": 1729691325,
+        "ifHcOctetsin": 5454931,
+        "ifHcOctetsOut": 1047742
+    },
+    "889": {
+        "timestamp": 1729691330,
+        "ifHcOctetsin": 5456878,
+        "ifHcOctetsOut": 1048825
+    },
+    "890": {
+        "timestamp": 1729691336,
+        "ifHcOctetsin": 5459159,
+        "ifHcOctetsOut": 1050088
+    },
+    "891": {
+        "timestamp": 1729691341,
+        "ifHcOctetsin": 5460512,
+        "ifHcOctetsOut": 1050991
+    },
+    "892": {
+        "timestamp": 1729691346,
+        "ifHcOctetsin": 5462439,
+        "ifHcOctetsOut": 1052074
+    },
+    "893": {
+        "timestamp": 1729691352,
+        "ifHcOctetsin": 5464446,
+        "ifHcOctetsOut": 1053217
+    },
+    "894": {
+        "timestamp": 1729691357,
+        "ifHcOctetsin": 5469100,
+        "ifHcOctetsOut": 1054450
+    },
+    "895": {
+        "timestamp": 1729691362,
+        "ifHcOctetsin": 5470540,
+        "ifHcOctetsOut": 1055443
+    },
+    "896": {
+        "timestamp": 1729691367,
+        "ifHcOctetsin": 5472851,
+        "ifHcOctetsOut": 1056526
+    },
+    "897": {
+        "timestamp": 1729691373,
+        "ifHcOctetsin": 5475042,
+        "ifHcOctetsOut": 1057609
+    },
+    "898": {
+        "timestamp": 1729691378,
+        "ifHcOctetsin": 5477259,
+        "ifHcOctetsOut": 1058872
+    },
+    "899": {
+        "timestamp": 1729691383,
+        "ifHcOctetsin": 5478792,
+        "ifHcOctetsOut": 1059835
+    },
+    "900": {
+        "timestamp": 1729691388,
+        "ifHcOctetsin": 5483598,
+        "ifHcOctetsOut": 1060918
+    },
+    "901": {
+        "timestamp": 1729691394,
+        "ifHcOctetsin": 5486631,
+        "ifHcOctetsOut": 1062001
+    },
+    "902": {
+        "timestamp": 1729691399,
+        "ifHcOctetsin": 5492627,
+        "ifHcOctetsOut": 1063084
+    },
+    "903": {
+        "timestamp": 1729691404,
+        "ifHcOctetsin": 5495760,
+        "ifHcOctetsOut": 1064167
+    },
+    "904": {
+        "timestamp": 1729691409,
+        "ifHcOctetsin": 5498067,
+        "ifHcOctetsOut": 1065250
+    },
+    "905": {
+        "timestamp": 1729691415,
+        "ifHcOctetsin": 5499838,
+        "ifHcOctetsOut": 1066393
+    },
+    "906": {
+        "timestamp": 1729691420,
+        "ifHcOctetsin": 5502577,
+        "ifHcOctetsOut": 1067536
+    },
+    "907": {
+        "timestamp": 1729691425,
+        "ifHcOctetsin": 5504168,
+        "ifHcOctetsOut": 1068619
+    },
+    "908": {
+        "timestamp": 1729691430,
+        "ifHcOctetsin": 5506457,
+        "ifHcOctetsOut": 1069702
+    },
+    "909": {
+        "timestamp": 1729691435,
+        "ifHcOctetsin": 5509608,
+        "ifHcOctetsOut": 1070785
+    },
+    "910": {
+        "timestamp": 1729691440,
+        "ifHcOctetsin": 5511495,
+        "ifHcOctetsOut": 1071868
+    },
+    "911": {
+        "timestamp": 1729691446,
+        "ifHcOctetsin": 5513866,
+        "ifHcOctetsOut": 1072951
+    },
+    "912": {
+        "timestamp": 1729691451,
+        "ifHcOctetsin": 5516233,
+        "ifHcOctetsOut": 1074094
+    },
+    "913": {
+        "timestamp": 1729691456,
+        "ifHcOctetsin": 5518124,
+        "ifHcOctetsOut": 1075177
+    },
+    "914": {
+        "timestamp": 1729691461,
+        "ifHcOctetsin": 5519824,
+        "ifHcOctetsOut": 1076260
+    },
+    "915": {
+        "timestamp": 1729691466,
+        "ifHcOctetsin": 5521931,
+        "ifHcOctetsOut": 1077403
+    },
+    "916": {
+        "timestamp": 1729691471,
+        "ifHcOctetsin": 5523758,
+        "ifHcOctetsOut": 1078486
+    },
+    "917": {
+        "timestamp": 1729691477,
+        "ifHcOctetsin": 5525730,
+        "ifHcOctetsOut": 1078846
+    },
+    "918": {
+        "timestamp": 1729691482,
+        "ifHcOctetsin": 5528796,
+        "ifHcOctetsOut": 1080712
+    },
+    "919": {
+        "timestamp": 1729691487,
+        "ifHcOctetsin": 5530327,
+        "ifHcOctetsOut": 1081795
+    },
+    "920": {
+        "timestamp": 1729691492,
+        "ifHcOctetsin": 5533876,
+        "ifHcOctetsOut": 1083906
+    },
+    "921": {
+        "timestamp": 1729691497,
+        "ifHcOctetsin": 5535135,
+        "ifHcOctetsOut": 1085084
+    },
+    "922": {
+        "timestamp": 1729691502,
+        "ifHcOctetsin": 5539082,
+        "ifHcOctetsOut": 1087888
+    },
+    "923": {
+        "timestamp": 1729691508,
+        "ifHcOctetsin": 5542063,
+        "ifHcOctetsOut": 1089879
+    },
+    "924": {
+        "timestamp": 1729691513,
+        "ifHcOctetsin": 5543030,
+        "ifHcOctetsOut": 1092080
+    },
+    "925": {
+        "timestamp": 1729691518,
+        "ifHcOctetsin": 5546907,
+        "ifHcOctetsOut": 1092895
+    },
+    "926": {
+        "timestamp": 1729691523,
+        "ifHcOctetsin": 5550859,
+        "ifHcOctetsOut": 1095760
+    },
+    "927": {
+        "timestamp": 1729691528,
+        "ifHcOctetsin": 5555516,
+        "ifHcOctetsOut": 1097902
+    },
+    "928": {
+        "timestamp": 1729691533,
+        "ifHcOctetsin": 5556667,
+        "ifHcOctetsOut": 1098625
+    },
+    "929": {
+        "timestamp": 1729691539,
+        "ifHcOctetsin": 5559556,
+        "ifHcOctetsOut": 1100798
+    },
+    "930": {
+        "timestamp": 1729691544,
+        "ifHcOctetsin": 5562640,
+        "ifHcOctetsOut": 1103330
+    },
+    "931": {
+        "timestamp": 1729691549,
+        "ifHcOctetsin": 5565796,
+        "ifHcOctetsOut": 1105593
+    },
+    "932": {
+        "timestamp": 1729691554,
+        "ifHcOctetsin": 5567727,
+        "ifHcOctetsOut": 1106649
+    },
+    "933": {
+        "timestamp": 1729691560,
+        "ifHcOctetsin": 5570852,
+        "ifHcOctetsOut": 1108700
+    },
+    "934": {
+        "timestamp": 1729691565,
+        "ifHcOctetsin": 5574725,
+        "ifHcOctetsOut": 1111111
+    },
+    "935": {
+        "timestamp": 1729691570,
+        "ifHcOctetsin": 5578857,
+        "ifHcOctetsOut": 1113707
+    },
+    "936": {
+        "timestamp": 1729691575,
+        "ifHcOctetsin": 5581291,
+        "ifHcOctetsOut": 1114793
+    },
+    "937": {
+        "timestamp": 1729691580,
+        "ifHcOctetsin": 5584388,
+        "ifHcOctetsOut": 1116784
+    },
+    "938": {
+        "timestamp": 1729691586,
+        "ifHcOctetsin": 5587920,
+        "ifHcOctetsOut": 1118835
+    },
+    "939": {
+        "timestamp": 1729691591,
+        "ifHcOctetsin": 5592677,
+        "ifHcOctetsOut": 1121459
+    },
+    "940": {
+        "timestamp": 1729691596,
+        "ifHcOctetsin": 5594414,
+        "ifHcOctetsOut": 1122817
+    },
+    "941": {
+        "timestamp": 1729691601,
+        "ifHcOctetsin": 5597899,
+        "ifHcOctetsOut": 1124868
+    },
+    "942": {
+        "timestamp": 1729691607,
+        "ifHcOctetsin": 5602240,
+        "ifHcOctetsOut": 1126859
+    },
+    "943": {
+        "timestamp": 1729691612,
+        "ifHcOctetsin": 5606973,
+        "ifHcOctetsOut": 1129152
+    },
+    "944": {
+        "timestamp": 1729691618,
+        "ifHcOctetsin": 5609031,
+        "ifHcOctetsOut": 1130689
+    },
+    "945": {
+        "timestamp": 1729691623,
+        "ifHcOctetsin": 5612179,
+        "ifHcOctetsOut": 1133012
+    },
+    "946": {
+        "timestamp": 1729691628,
+        "ifHcOctetsin": 5615224,
+        "ifHcOctetsOut": 1135003
+    },
+    "947": {
+        "timestamp": 1729691633,
+        "ifHcOctetsin": 5618481,
+        "ifHcOctetsOut": 1136994
+    },
+    "948": {
+        "timestamp": 1729691639,
+        "ifHcOctetsin": 5623008,
+        "ifHcOctetsOut": 1139349
+    },
+    "949": {
+        "timestamp": 1729691645,
+        "ifHcOctetsin": 5626956,
+        "ifHcOctetsOut": 1141550
+    },
+    "950": {
+        "timestamp": 1729691651,
+        "ifHcOctetsin": 5629291,
+        "ifHcOctetsOut": 1143813
+    },
+    "951": {
+        "timestamp": 1729691656,
+        "ifHcOctetsin": 5634315,
+        "ifHcOctetsOut": 1145138
+    },
+    "952": {
+        "timestamp": 1729691661,
+        "ifHcOctetsin": 5638228,
+        "ifHcOctetsOut": 1147311
+    },
+    "953": {
+        "timestamp": 1729691666,
+        "ifHcOctetsin": 5642752,
+        "ifHcOctetsOut": 1149574
+    },
+    "954": {
+        "timestamp": 1729691672,
+        "ifHcOctetsin": 5644335,
+        "ifHcOctetsOut": 1150899
+    },
+    "955": {
+        "timestamp": 1729691677,
+        "ifHcOctetsin": 5647888,
+        "ifHcOctetsOut": 1152950
+    },
+    "956": {
+        "timestamp": 1729691682,
+        "ifHcOctetsin": 5651589,
+        "ifHcOctetsOut": 1155032
+    },
+    "957": {
+        "timestamp": 1729691687,
+        "ifHcOctetsin": 5655853,
+        "ifHcOctetsOut": 1157628
+    },
+    "958": {
+        "timestamp": 1729691692,
+        "ifHcOctetsin": 5658628,
+        "ifHcOctetsOut": 1158983
+    },
+    "959": {
+        "timestamp": 1729691698,
+        "ifHcOctetsin": 5662477,
+        "ifHcOctetsOut": 1161216
+    },
+    "960": {
+        "timestamp": 1729691703,
+        "ifHcOctetsin": 5666306,
+        "ifHcOctetsOut": 1163267
+    },
+    "961": {
+        "timestamp": 1729691708,
+        "ifHcOctetsin": 5670903,
+        "ifHcOctetsOut": 1165440
+    },
+    "962": {
+        "timestamp": 1729691713,
+        "ifHcOctetsin": 5673449,
+        "ifHcOctetsOut": 1166795
+    },
+    "963": {
+        "timestamp": 1729691718,
+        "ifHcOctetsin": 5677034,
+        "ifHcOctetsOut": 1168786
+    },
+    "964": {
+        "timestamp": 1729691723,
+        "ifHcOctetsin": 5681243,
+        "ifHcOctetsOut": 1171201
+    },
+    "965": {
+        "timestamp": 1729691728,
+        "ifHcOctetsin": 5683228,
+        "ifHcOctetsOut": 1172377
+    },
+    "966": {
+        "timestamp": 1729691734,
+        "ifHcOctetsin": 5688129,
+        "ifHcOctetsOut": 1174848
+    },
+    "967": {
+        "timestamp": 1729691739,
+        "ifHcOctetsin": 5691078,
+        "ifHcOctetsOut": 1176930
+    },
+    "968": {
+        "timestamp": 1729691744,
+        "ifHcOctetsin": 5696099,
+        "ifHcOctetsOut": 1179163
+    },
+    "969": {
+        "timestamp": 1729691749,
+        "ifHcOctetsin": 5698168,
+        "ifHcOctetsOut": 1180521
+    },
+    "970": {
+        "timestamp": 1729691754,
+        "ifHcOctetsin": 5701808,
+        "ifHcOctetsOut": 1182781
+    },
+    "971": {
+        "timestamp": 1729691759,
+        "ifHcOctetsin": 5706461,
+        "ifHcOctetsOut": 1185014
+    },
+    "972": {
+        "timestamp": 1729691764,
+        "ifHcOctetsin": 5708354,
+        "ifHcOctetsOut": 1186282
+    },
+    "973": {
+        "timestamp": 1729691770,
+        "ifHcOctetsin": 5713894,
+        "ifHcOctetsOut": 1188273
+    },
+    "974": {
+        "timestamp": 1729691775,
+        "ifHcOctetsin": 5718223,
+        "ifHcOctetsOut": 1190744
+    },
+    "975": {
+        "timestamp": 1729691780,
+        "ifHcOctetsin": 5722321,
+        "ifHcOctetsOut": 1192916
+    },
+    "976": {
+        "timestamp": 1729691785,
+        "ifHcOctetsin": 5724550,
+        "ifHcOctetsOut": 1194154
+    },
+    "977": {
+        "timestamp": 1729691790,
+        "ifHcOctetsin": 5727829,
+        "ifHcOctetsOut": 1196296
+    },
+    "978": {
+        "timestamp": 1729691796,
+        "ifHcOctetsin": 5731642,
+        "ifHcOctetsOut": 1198647
+    },
+    "979": {
+        "timestamp": 1729691801,
+        "ifHcOctetsin": 5734974,
+        "ifHcOctetsOut": 1200728
+    },
+    "980": {
+        "timestamp": 1729691806,
+        "ifHcOctetsin": 5736920,
+        "ifHcOctetsOut": 1202178
+    },
+    "981": {
+        "timestamp": 1729691811,
+        "ifHcOctetsin": 5739772,
+        "ifHcOctetsOut": 1204259
+    },
+    "982": {
+        "timestamp": 1729691817,
+        "ifHcOctetsin": 5743794,
+        "ifHcOctetsOut": 1206489
+    },
+    "983": {
+        "timestamp": 1729691822,
+        "ifHcOctetsin": 5745644,
+        "ifHcOctetsOut": 1208090
+    },
+    "984": {
+        "timestamp": 1729691827,
+        "ifHcOctetsin": 5748468,
+        "ifHcOctetsOut": 1210382
+    },
+    "985": {
+        "timestamp": 1729691832,
+        "ifHcOctetsin": 5751596,
+        "ifHcOctetsOut": 1212463
+    },
+    "986": {
+        "timestamp": 1729691837,
+        "ifHcOctetsin": 5754898,
+        "ifHcOctetsOut": 1214633
+    },
+    "987": {
+        "timestamp": 1729691842,
+        "ifHcOctetsin": 5756935,
+        "ifHcOctetsOut": 1215992
+    },
+    "988": {
+        "timestamp": 1729691848,
+        "ifHcOctetsin": 5760300,
+        "ifHcOctetsOut": 1218165
+    },
+    "989": {
+        "timestamp": 1729691853,
+        "ifHcOctetsin": 5764566,
+        "ifHcOctetsOut": 1220666
+    },
+    "990": {
+        "timestamp": 1729691858,
+        "ifHcOctetsin": 5765598,
+        "ifHcOctetsOut": 1221299
+    },
+    "991": {
+        "timestamp": 1729691863,
+        "ifHcOctetsin": 5768709,
+        "ifHcOctetsOut": 1223954
+    },
+    "992": {
+        "timestamp": 1729691868,
+        "ifHcOctetsin": 5771566,
+        "ifHcOctetsOut": 1226036
+    },
+    "993": {
+        "timestamp": 1729691873,
+        "ifHcOctetsin": 5774725,
+        "ifHcOctetsOut": 1228267
+    },
+    "994": {
+        "timestamp": 1729691879,
+        "ifHcOctetsin": 5776314,
+        "ifHcOctetsOut": 1229352
+    },
+    "995": {
+        "timestamp": 1729691884,
+        "ifHcOctetsin": 5780047,
+        "ifHcOctetsOut": 1231494
+    },
+    "996": {
+        "timestamp": 1729691889,
+        "ifHcOctetsin": 5784607,
+        "ifHcOctetsOut": 1233726
+    },
+    "997": {
+        "timestamp": 1729691894,
+        "ifHcOctetsin": 5787851,
+        "ifHcOctetsOut": 1236049
+    },
+    "998": {
+        "timestamp": 1729691899,
+        "ifHcOctetsin": 5789914,
+        "ifHcOctetsOut": 1237496
+    },
+    "999": {
+        "timestamp": 1729691905,
+        "ifHcOctetsin": 5792959,
+        "ifHcOctetsOut": 1239487
+    },
+    "1000": {
+        "timestamp": 1729691910,
+        "ifHcOctetsin": 5795867,
+        "ifHcOctetsOut": 1241810
+    },
+    "1001": {
+        "timestamp": 1729691915,
+        "ifHcOctetsin": 5800606,
+        "ifHcOctetsOut": 1243801
+    },
+    "1002": {
+        "timestamp": 1729691921,
+        "ifHcOctetsin": 5802845,
+        "ifHcOctetsOut": 1246364
+    },
+    "1003": {
+        "timestamp": 1729691926,
+        "ifHcOctetsin": 5806302,
+        "ifHcOctetsOut": 1247510
+    },
+    "1004": {
+        "timestamp": 1729691932,
+        "ifHcOctetsin": 5810408,
+        "ifHcOctetsOut": 1249954
+    },
+    "1005": {
+        "timestamp": 1729691937,
+        "ifHcOctetsin": 5814077,
+        "ifHcOctetsOut": 1251945
+    },
+    "1006": {
+        "timestamp": 1729691943,
+        "ifHcOctetsin": 5817841,
+        "ifHcOctetsOut": 1254178
+    },
+    "1007": {
+        "timestamp": 1729691948,
+        "ifHcOctetsin": 5819424,
+        "ifHcOctetsOut": 1256803
+    },
+    "1008": {
+        "timestamp": 1729691953,
+        "ifHcOctetsin": 5822918,
+        "ifHcOctetsOut": 1257706
+    },
+    "1009": {
+        "timestamp": 1729691959,
+        "ifHcOctetsin": 5826250,
+        "ifHcOctetsOut": 1260089
+    },
+    "1010": {
+        "timestamp": 1729691964,
+        "ifHcOctetsin": 5829795,
+        "ifHcOctetsOut": 1262262
+    },
+    "1011": {
+        "timestamp": 1729691970,
+        "ifHcOctetsin": 5833244,
+        "ifHcOctetsOut": 1264586
+    },
+    "1012": {
+        "timestamp": 1729691975,
+        "ifHcOctetsin": 5835463,
+        "ifHcOctetsOut": 1265820
+    },
+    "1013": {
+        "timestamp": 1729691980,
+        "ifHcOctetsin": 5838075,
+        "ifHcOctetsOut": 1267901
+    },
+    "1014": {
+        "timestamp": 1729691985,
+        "ifHcOctetsin": 5842220,
+        "ifHcOctetsOut": 1270074
+    },
+    "1015": {
+        "timestamp": 1729691990,
+        "ifHcOctetsin": 5845557,
+        "ifHcOctetsOut": 1272458
+    },
+    "1016": {
+        "timestamp": 1729691996,
+        "ifHcOctetsin": 5847977,
+        "ifHcOctetsOut": 1273722
+    },
+    "1017": {
+        "timestamp": 1729692001,
+        "ifHcOctetsin": 5851755,
+        "ifHcOctetsOut": 1275864
+    },
+    "1018": {
+        "timestamp": 1729692006,
+        "ifHcOctetsin": 5855293,
+        "ifHcOctetsOut": 1278218
+    },
+    "1019": {
+        "timestamp": 1729692011,
+        "ifHcOctetsin": 5860446,
+        "ifHcOctetsOut": 1280209
+    },
+    "1020": {
+        "timestamp": 1729692016,
+        "ifHcOctetsin": 5862356,
+        "ifHcOctetsOut": 1281746
+    },
+    "1021": {
+        "timestamp": 1729692022,
+        "ifHcOctetsin": 5865301,
+        "ifHcOctetsOut": 1283979
+    },
+    "1022": {
+        "timestamp": 1729692027,
+        "ifHcOctetsin": 5867982,
+        "ifHcOctetsOut": 1286090
+    },
+    "1023": {
+        "timestamp": 1729692032,
+        "ifHcOctetsin": 5871447,
+        "ifHcOctetsOut": 1288141
+    },
+    "1024": {
+        "timestamp": 1729692037,
+        "ifHcOctetsin": 5874087,
+        "ifHcOctetsOut": 1289769
+    },
+    "1025": {
+        "timestamp": 1729692042,
+        "ifHcOctetsin": 5877748,
+        "ifHcOctetsOut": 1291942
+    },
+    "1026": {
+        "timestamp": 1729692048,
+        "ifHcOctetsin": 5882072,
+        "ifHcOctetsOut": 1294114
+    },
+    "1027": {
+        "timestamp": 1729692053,
+        "ifHcOctetsin": 5885021,
+        "ifHcOctetsOut": 1296165
+    },
+    "1028": {
+        "timestamp": 1729692058,
+        "ifHcOctetsin": 5886484,
+        "ifHcOctetsOut": 1297490
+    },
+    "1029": {
+        "timestamp": 1729692063,
+        "ifHcOctetsin": 5889152,
+        "ifHcOctetsOut": 1299995
+    },
+    "1030": {
+        "timestamp": 1729692068,
+        "ifHcOctetsin": 5892229,
+        "ifHcOctetsOut": 1301986
+    },
+    "1031": {
+        "timestamp": 1729692074,
+        "ifHcOctetsin": 5894032,
+        "ifHcOctetsOut": 1303069
+    },
+    "1032": {
+        "timestamp": 1729692079,
+        "ifHcOctetsin": 5898661,
+        "ifHcOctetsOut": 1305302
+    },
+    "1033": {
+        "timestamp": 1729692084,
+        "ifHcOctetsin": 5904590,
+        "ifHcOctetsOut": 1307838
+    },
+    "1034": {
+        "timestamp": 1729692089,
+        "ifHcOctetsin": 5908795,
+        "ifHcOctetsOut": 1310100
+    },
+    "1035": {
+        "timestamp": 1729692094,
+        "ifHcOctetsin": 5910627,
+        "ifHcOctetsOut": 1311184
+    },
+    "1036": {
+        "timestamp": 1729692100,
+        "ifHcOctetsin": 5914250,
+        "ifHcOctetsOut": 1313355
+    },
+    "1037": {
+        "timestamp": 1729692105,
+        "ifHcOctetsin": 5917306,
+        "ifHcOctetsOut": 1315891
+    },
+    "1038": {
+        "timestamp": 1729692110,
+        "ifHcOctetsin": 5918517,
+        "ifHcOctetsOut": 1317972
+    },
+    "1039": {
+        "timestamp": 1729692115,
+        "ifHcOctetsin": 5921813,
+        "ifHcOctetsOut": 1319146
+    },
+    "1040": {
+        "timestamp": 1729692120,
+        "ifHcOctetsin": 5925262,
+        "ifHcOctetsOut": 1321530
+    },
+    "1041": {
+        "timestamp": 1729692125,
+        "ifHcOctetsin": 5930172,
+        "ifHcOctetsOut": 1324095
+    },
+    "1042": {
+        "timestamp": 1729692131,
+        "ifHcOctetsin": 5932283,
+        "ifHcOctetsOut": 1324727
+    },
+    "1043": {
+        "timestamp": 1729692136,
+        "ifHcOctetsin": 5935492,
+        "ifHcOctetsOut": 1326987
+    },
+    "1044": {
+        "timestamp": 1729692141,
+        "ifHcOctetsin": 5938945,
+        "ifHcOctetsOut": 1329342
+    },
+    "1045": {
+        "timestamp": 1729692146,
+        "ifHcOctetsin": 5941681,
+        "ifHcOctetsOut": 1331423
+    },
+    "1046": {
+        "timestamp": 1729692152,
+        "ifHcOctetsin": 5943272,
+        "ifHcOctetsOut": 1332570
+    },
+    "1047": {
+        "timestamp": 1729692157,
+        "ifHcOctetsin": 5947992,
+        "ifHcOctetsOut": 1334862
+    },
+    "1048": {
+        "timestamp": 1729692162,
+        "ifHcOctetsin": 5951643,
+        "ifHcOctetsOut": 1337213
+    },
+    "1049": {
+        "timestamp": 1729692167,
+        "ifHcOctetsin": 5956494,
+        "ifHcOctetsOut": 1339386
+    },
+    "1050": {
+        "timestamp": 1729692172,
+        "ifHcOctetsin": 5958412,
+        "ifHcOctetsOut": 1340965
+    },
+    "1051": {
+        "timestamp": 1729692178,
+        "ifHcOctetsin": 5961781,
+        "ifHcOctetsOut": 1343076
+    },
+    "1052": {
+        "timestamp": 1729692183,
+        "ifHcOctetsin": 5964866,
+        "ifHcOctetsOut": 1345698
+    },
+    "1053": {
+        "timestamp": 1729692188,
+        "ifHcOctetsin": 5966715,
+        "ifHcOctetsOut": 1347238
+    },
+    "1054": {
+        "timestamp": 1729692193,
+        "ifHcOctetsin": 5969420,
+        "ifHcOctetsOut": 1349229
+    },
+    "1055": {
+        "timestamp": 1729692198,
+        "ifHcOctetsin": 5973452,
+        "ifHcOctetsOut": 1351220
+    },
+    "1056": {
+        "timestamp": 1729692203,
+        "ifHcOctetsin": 5977201,
+        "ifHcOctetsOut": 1353480
+    },
+    "1057": {
+        "timestamp": 1729692208,
+        "ifHcOctetsin": 5979295,
+        "ifHcOctetsOut": 1354959
+    },
+    "1058": {
+        "timestamp": 1729692214,
+        "ifHcOctetsin": 5983794,
+        "ifHcOctetsOut": 1357192
+    },
+    "1059": {
+        "timestamp": 1729692219,
+        "ifHcOctetsin": 5986319,
+        "ifHcOctetsOut": 1359183
+    },
+    "1060": {
+        "timestamp": 1729692224,
+        "ifHcOctetsin": 5988345,
+        "ifHcOctetsOut": 1361774
+    },
+    "1061": {
+        "timestamp": 1729692229,
+        "ifHcOctetsin": 5991925,
+        "ifHcOctetsOut": 1362952
+    },
+    "1062": {
+        "timestamp": 1729692234,
+        "ifHcOctetsin": 5996290,
+        "ifHcOctetsOut": 1365245
+    },
+    "1063": {
+        "timestamp": 1729692240,
+        "ifHcOctetsin": 6000739,
+        "ifHcOctetsOut": 1367236
+    },
+    "1064": {
+        "timestamp": 1729692245,
+        "ifHcOctetsin": 6004682,
+        "ifHcOctetsOut": 1369467
+    },
+    "1065": {
+        "timestamp": 1729692250,
+        "ifHcOctetsin": 6006474,
+        "ifHcOctetsOut": 1370824
+    },
+    "1066": {
+        "timestamp": 1729692256,
+        "ifHcOctetsin": 6009853,
+        "ifHcOctetsOut": 1373088
+    },
+    "1067": {
+        "timestamp": 1729692261,
+        "ifHcOctetsin": 6012793,
+        "ifHcOctetsOut": 1375320
+    },
+    "1068": {
+        "timestamp": 1729692267,
+        "ifHcOctetsin": 6015622,
+        "ifHcOctetsOut": 1377371
+    },
+    "1069": {
+        "timestamp": 1729692272,
+        "ifHcOctetsin": 6017768,
+        "ifHcOctetsOut": 1378908
+    },
+    "1070": {
+        "timestamp": 1729692277,
+        "ifHcOctetsin": 6020974,
+        "ifHcOctetsOut": 1380505
+    },
+    "1071": {
+        "timestamp": 1729692283,
+        "ifHcOctetsin": 6024601,
+        "ifHcOctetsOut": 1381648
+    },
+    "1072": {
+        "timestamp": 1729692288,
+        "ifHcOctetsin": 6026912,
+        "ifHcOctetsOut": 1382731
+    },
+    "1073": {
+        "timestamp": 1729692293,
+        "ifHcOctetsin": 6029099,
+        "ifHcOctetsOut": 1384056
+    },
+    "1074": {
+        "timestamp": 1729692299,
+        "ifHcOctetsin": 6030652,
+        "ifHcOctetsOut": 1384957
+    },
+    "1075": {
+        "timestamp": 1729692304,
+        "ifHcOctetsin": 6033580,
+        "ifHcOctetsOut": 1386040
     }
 }
