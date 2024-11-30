@@ -1,25 +1,24 @@
 {
     "57239859": {
         "hostname": "Machine 1",
-        "ipAddress": "192.168.141.181",
+        "ipAddress": "192.168.1.19",
         "communityString": "public",
         "OID": [
             "1.3.6.1.2.1.31.1.1.1.6.2",
             "1.3.6.1.2.1.31.1.1.1.10.2",
             "1.3.6.1.4.1.2021.4.6.0"
         ],
-        "datafFilePath": "C:\\\\Users\\\\Arizzi Alexandre\\\\Documents\\\\Apprentissage\\\\TRI\\\\Master 2\\\\Projet Developpement\\\\devicesJsonData\\\\57239859.json"
+        "datafFilePath": "C:\\\\Users\\\\yacin\\\\OneDrive\\\\Bureau\\\\Enseignements\\\\M2\\\\PROJET-MONITORING\\\\devicesJsonData\\\\57239859.json"
     },
     "92202993": {
         "hostname": "Machine 2",
-        "ipAddress": "192.168.141.119",
+        "ipAddress": "192.168.1.24",
         "communityString": "public",
         "OID": [
             "1.3.6.1.2.1.31.1.1.1.6.2",
             "1.3.6.1.4.1.2021.4.6.0"
         ],
-        "datafFilePath": "C:\\\\Users\\\\Arizzi Alexandre\\\\Documents\\\\Apprentissage\\\\TRI\\\\Master 2\\\\Projet Developpement\\\\devicesJsonData\\\\92202993.json"
-    },
+        "datafFilePath": "C:\\\\Users\\\\yacin\\\\OneDrive\\\\Bureau\\\\Enseignements\\\\M2\\\\PROJET-MONITORING\\\\devicesJsonData\\\\92202993.json"    },
     "55039120": {
         "hostname": "stplol",
         "ipAddress": "192.168.141.181",
@@ -28,6 +27,6 @@
             "1.3.6.1.2.1.31.1.1.1.6.2",
             "1.3.6.1.2.1.31.1.1.1.10.2"
         ],
-        "datafFilePath": "C:\\\\Users\\\\Arizzi Alexandre\\\\Documents\\\\Apprentissage\\\\TRI\\\\Master 2\\\\Projet Developpement\\\\devicesJsonData\\\\55039120.json"
+        "datafFilePath": "C:\\\\Users\\\\yacin\\\\OneDrive\\\\Bureau\\\\Enseignements\\\\M2\\\\PROJET-MONITORING\\\\devicesJsonData\\\\55039120.json"
     }
 }

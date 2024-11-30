@@ -9,20 +9,64 @@
 </head>
 <body>
     <h1>affichage data</h1>
-    <div>
+    
+    <!--
+    <script>
+        list_attributes = [];
+    </script>
+     <div>
+        {% for attributes in name_list %}
+            <canvas id="my{{attributes}}Chart"></canvas>
+            {% set prefix = "ctx_" %}
+            {% set context_name = prefix + attributes %}
+            <script> 
+                const {{ context_name }} = document.getElementById('my{{attributes}}Chart');
+                list_attributes.push("{{attributes}}")
+            </script>
+        {% endfor%}
         <canvas id="myChart"></canvas>
     </div>
-
+    -->
     <script>
-      const ctx = document.getElementById('myChart');
-      Creategraph(ctx);
+        name_list = [];
+        const contexts= {};
+        const allcharts = {}; 
+    </script>
+    {% for attributes in name_list %}
+    <script>
+        name_list.push("{{ attributes }}");
+    </script>
+    <div>
+        <canvas id="my{{ attributes }}Chart"></canvas>
+    </div>
+    {% endfor %}
+    <script>
+        for ( attributes of name_list){
+            contexts["contexte"+attributes] = document.getElementById("my"+String(attributes)+"Chart");
+            Creategraph("{{ device_id }}", attributes, 60, contexts["contexte"+attributes], allcharts);
+        }
+        //console.log(allcharts);
+        setInterval(() => {
+            for (attributes of name_list){
+                //console.log("{{ device_id }}", attributes, 60, "contexte"+attributes);
+                Updategraph("{{ device_id }}", attributes, 60, allcharts["chart"+attributes]);
+            }
+        }, 5000);
+    </script>
+
+
+       <!--
+    <script>
+        //const ctx = document.getElementById('my{{attributes}}Chart');
+
+        //Creategraph(ctx);
 
     // Update the chart every 5 seconds
-    setInterval(() => {
-        Updategraph();
-    }, 5000);
+        setInterval(() => {
+            Updategraph();
+        }, 5000);
  
-    </script>
+    </script>--> 
 
 </body>
 </html>

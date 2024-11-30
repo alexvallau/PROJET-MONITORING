@@ -7,9 +7,9 @@ import os
 import random
 import string
 
-confFilePath = r'C:\\Users\\Arizzi Alexandre\\Documents\\Apprentissage\\TRI\\Master 2\\Projet Developpement\\devicesConfiguration\\devicesConf.json'
-dataFilePath = r'C:\\Users\\Arizzi Alexandre\\Documents\\Apprentissage\\TRI\\Master 2\\Projet Developpement\\devicesJsonData'
-correspondanceFilePath = r'C:\\Users\\Arizzi Alexandre\\Documents\\Apprentissage\\TRI\\Master 2\\Projet Developpement\\snmp_correspondances.json'
+confFilePath = r'C:\\Users\\yacin\\OneDrive\\Bureau\\Enseignements\\M2\\PROJET-MONITORING\\devicesConfiguration\\devicesConf.json'
+dataFilePath = r'C:\\Users\\yacin\\OneDrive\\Bureau\\Enseignements\\M2\\PROJET-MONITORING\\devicesJsonData\\'
+correspondanceFilePath = r'C:\\Users\\yacin\\OneDrive\\Bureau\\Enseignements\\M2\\PROJET-MONITORING\\snmp_correspondances.json'
 
 def returnRandom():
     return random.randint(1,100000000)

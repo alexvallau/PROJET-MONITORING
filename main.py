@@ -12,8 +12,6 @@ from functions import *
 app = Flask(__name__)
 
 
-
-
 @app.route('/add')
 def create_Device():
     return render_template('addDevice.html')
@@ -70,13 +68,15 @@ def getDataFromDevices():
         jsonData = json.load(file)
     return jsonData
 
-@app.route('/devices')
+@app.route('/devices', methods=['GET'])
 def devices():
-    # Load the devices data
-    with open(confFilePath, 'r') as f:
-        devices_data = json.load(f)
-    # Pass the updated devices data to the HTML template
-    return render_template('devices.html', devices=devices_data)
+    id = request.args['id']
+    oid_list = recup_oid(str(id))
+    name_list = []
+    for oid in oid_list :
+        name = get_name_from_oid(oid)
+        name_list.append(name)
+    return render_template('devices.html', name_list=name_list, device_id = id )
 
 @app.route('/')
 def index():
