@@ -7,9 +7,11 @@ import os
 import random
 import string
 
-confFilePath = r'C:\\Users\\Arizzi Alexandre\\Documents\\Apprentissage\\TRI\\Master 2\\Projet Developpement\\devicesConfiguration\\devicesConf.json'
-dataFilePath = r'C:\\Users\\Arizzi Alexandre\\Documents\\Apprentissage\\TRI\\Master 2\\Projet Developpement\\devicesJsonData'
-correspondanceFilePath = r'C:\\Users\\Arizzi Alexandre\\Documents\\Apprentissage\\TRI\\Master 2\\Projet Developpement\\snmp_correspondances.json'
+from dotenv import load_dotenv
+load_dotenv()
+confFilePath = os.getenv('CONF_FILE_PATH')
+dataFilePath = os.getenv('DATA_FILE_PATH')
+correspondance_file_path = os.getenv('CORRESPONDANCE_FILE_PATH')
 thread_state = {}
 delete_thread_state = {}
 def returnRandom():

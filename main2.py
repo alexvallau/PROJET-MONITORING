@@ -11,8 +11,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-conf_file_path = os.getenv('CONF_FILE_PATH')
-data_file_path = os.getenv('DATA_FILE_PATH')
+confFilePath = str(os.getenv('CONF_FILE_PATH'))
+dataFilePath = os.getenv('DATA_FILE_PATH')
 correspondance_file_path = os.getenv('CORRESPONDANCE_FILE_PATH')
 thread_state = {}
 

@@ -7,8 +7,13 @@ import os
 import random
 import logging
 from datetime import datetime
+from dotenv import load_dotenv
 
+load_dotenv()
 
+confFilePath = os.getenv('CONF_FILE_PATH')
+dataFilePath = os.getenv('DATA_FILE_PATH')
+correspondance_file_path = os.getenv('CORRESPONDANCE_FILE_PATH')
 
 class LogManager:
     def __init__(self, log_file):
@@ -222,6 +227,3 @@ def device_snmp_loop(device_id, ip, community_string, oids, data_file_path, snmp
         snmp_manager.thread_state[device_id] = "running"
         manager.collect_data()  # Perform one cycle of SNMP data collection
        
-
-
-confFilePath = r'C:\\Users\\Arizzi Alexandre\\Documents\\Apprentissage\\TRI\\Master 2\\Projet Developpement\\devicesConfiguration\\devicesConf.json'
