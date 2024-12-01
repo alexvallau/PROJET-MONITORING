@@ -1,0 +1,32 @@
+{
+    "1": {
+        "timestamp": 1733045162,
+        "ifHcOctetsOut": 905092,
+        "RAMRemaining": 3804924
+    },
+    "2": {
+        "timestamp": 1733045168,
+        "ifHcOctetsOut": 905345,
+        "RAMRemaining": 3804924
+    },
+    "3": {
+        "timestamp": 1733045173,
+        "ifHcOctetsOut": 905718,
+        "RAMRemaining": 3804924
+    },
+    "4": {
+        "timestamp": 1733045178,
+        "ifHcOctetsOut": 905971,
+        "RAMRemaining": 3804924
+    },
+    "5": {
+        "timestamp": 1733045183,
+        "ifHcOctetsOut": 906298,
+        "RAMRemaining": 3804924
+    },
+    "6": {
+        "timestamp": 1733045188,
+        "ifHcOctetsOut": 906477,
+        "RAMRemaining": 3804924
+    }
+}
