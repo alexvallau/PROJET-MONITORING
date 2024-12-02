@@ -137,9 +137,19 @@ function Creategraph(id, attribut, duree, ctx, allcharts){
                 data: dataset1,
                 options: {
                   scales: {
-                    y: {
-                      beginAtZero: true
-                    }
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Débit (Kbits)'
+                            }
+                        },
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Temps écoulé (secondes)'
+                            }
+                        }
                   }
                 }
               });
@@ -150,7 +160,17 @@ function Creategraph(id, attribut, duree, ctx, allcharts){
                 options: {
                   scales: {
                     y: {
-                      beginAtZero: false
+                        beginAtZero: false,
+                        title: {
+                            display: true,
+                            text: 'Pourcentage de Ram disponible'
+                        },
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Temps écoulé (secondes)'
+                        }
                     }
                   }
                 }

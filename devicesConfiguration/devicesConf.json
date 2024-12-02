@@ -1,12 +1,23 @@
 {
     "76357549": {
         "hostname": "alexvallau",
-        "ipAddress": "192.168.2.120",
+        "ipAddress": "192.168.1.19",
         "communityString": "public",
         "OID": [
             "1.3.6.1.2.1.31.1.1.1.10.2",
             "1.3.6.1.4.1.2021.4.6.0"
         ],
-        "datafFilePath": "C:\\\\Users\\\\Arizzi Alexandre\\\\Documents\\\\Apprentissage\\\\TRI\\\\Master 2\\\\Projet Developpement\\\\devicesJsonData\\\\76357549.json"
+        "datafFilePath": "C:\\\\Users\\\\yacin\\\\OneDrive\\\\Bureau\\\\Enseignements\\\\M2\\\\PROJET-MONITORING\\\\devicesJsonData\\\\76357549.json"
+    },
+    "76846985": {
+        "hostname": "machine2",
+        "ipAddress": "192.168.1.24",
+        "communityString": "public",
+        "OID": [
+            "1.3.6.1.2.1.31.1.1.1.6.2",
+            "1.3.6.1.2.1.31.1.1.1.10.2",
+            "1.3.6.1.4.1.2021.4.6.0"
+        ],
+        "datafFilePath": "C:\\Users\\yacin\\OneDrive\\Bureau\\Enseignements\\M2\\PROJET-MONITORING\\devicesJsonData\\\\76846985.json"
     }
 }
