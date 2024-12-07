@@ -6,40 +6,126 @@
     <title>Relevés ifHcOctetsin</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="{{ url_for('static', filename='get_data.js') }}"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
+<style>
+    /* Conteneur principal pour les graphiques */
+.graph-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
+    gap: 20px; /* Espacement entre les graphiques */
+    justify-items: center; /* Centre les graphiques horizontalement */
+    max-width: 80%; /* Limite la largeur totale de la grille */
+    margin: 0 auto; /* Centrer le conteneur */
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Fond dégradé bleu profond */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Ombre élégante */
+}
+
+/* Style des graphiques */
+.graph-wrapper {
+    position: relative; /* Nécessaire pour l'aspect ratio */
+    width: 100%; /* S'adapte à la largeur du conteneur */
+    padding-top: 50%; /* Ratio hauteur/largeur 1:2 */
+    background: linear-gradient(145deg, #f4f4f4, #eaeaea); /* Fond léger et lumineux */
+    border: 2px solid #ffffff; /* Bordure blanche pour contraste */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1), inset 0 -3px 5px rgba(0, 0, 0, 0.1); /* Ombres internes */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition fluide */
+}
+
+/* Interaction au survol */
+.graph-wrapper:hover {
+    transform: translateY(-5px); /* Déplace légèrement vers le haut */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2), inset 0 -5px 10px rgba(0, 0, 0, 0.1); /* Augmente les ombres */
+    background: linear-gradient(145deg, #eaeaea, #ffffff); /* Légère inversion du dégradé */
+}
+
+.graph {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Occupe tout l'espace disponible */
+    height: 100%; /* Conserve le ratio */
+    border-radius: 10px; /* Coins arrondis identiques à l'enveloppe */
+}
+
+/* Titre de la page */
+h1 {
+    text-align: center;
+    font-size: 2.2rem; /* Taille légèrement réduite pour un aspect sobre */
+    color: #333333; /* Gris foncé pour éviter le contraste excessif */
+    font-family: 'Roboto', sans-serif; /* Police moderne et minimaliste */
+    font-weight: 500; /* Poids moyen pour un équilibre visuel */
+    text-shadow: none; /* Suppression des ombres pour plus de simplicité */
+    margin-bottom: 20px; /* Espacement subtil sous le titre */
+}
+.back-button-container {
+    position: fixed; /* Fixe le bouton à un endroit précis */
+    top: 20px; /* Distance du haut */
+    left: 20px; /* Distance de la gauche */
+    z-index: 1000; /* Priorité d'affichage au-dessus des autres éléments */
+}
+
+/* Style du bouton */
+.back-button {
+    display: inline-block;
+    padding: 12px 24px; /* Espacement interne pour rendre le bouton plus confortable */
+    background-color: #4caf50; /* Vert principal */
+    color: #ffffff; /* Texte blanc pour contraste */
+    text-decoration: none; /* Supprime le soulignement */
+    font-size: 1rem; /* Taille du texte */
+    font-family: 'Roboto', sans-serif; /* Police moderne */
+    font-weight: bold; /* Texte en gras pour lisibilité */
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Effets fluides */
+}
+
+/* Effets au survol */
+.back-button:hover {
+    background-color: #388e3c; /* Vert plus sombre */
+    transform: translateY(-3px); /* Légère élévation */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Ombre accentuée */
+}
+
+/* Effet lorsqu'on clique */
+.back-button:active {
+    transform: translateY(0); /* Retour à l'état normal */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Réduction de l'ombre */
+}
+/* Pour les petits écrans */
+@media (max-width: 768px) {
+    .graph-container {
+        grid-template-columns: 1fr; /* 1 colonne sur petits écrans */
+    }
+
+    h1 {
+        font-size: 2rem; /* Réduction du titre */
+    }
+}
+</style>
 <body>
-    <h1>affichage data</h1>
-    
-    <!--
-    <script>
-        list_attributes = [];
-    </script>
-     <div>
-        {% for attributes in name_list %}
-            <canvas id="my{{attributes}}Chart"></canvas>
-            {% set prefix = "ctx_" %}
-            {% set context_name = prefix + attributes %}
-            <script> 
-                const {{ context_name }} = document.getElementById('my{{attributes}}Chart');
-                list_attributes.push("{{attributes}}")
-            </script>
-        {% endfor%}
-        <canvas id="myChart"></canvas>
+    <div class="back-button-container">
+        <a href="/" class="back-button">← Retour à l'accueil</a>
     </div>
-    -->
+    <h1>affichage data</h1>
     <script>
         name_list = [];
         const contexts= {};
         const allcharts = {}; 
     </script>
-    {% for attributes in name_list %}
-    <script>
-        name_list.push("{{ attributes }}");
-    </script>
-    <div>
-        <canvas id="my{{ attributes }}Chart"></canvas>
+    <div class="graph-container">
+        {% for attributes in name_list %}
+            <script>
+                name_list.push("{{ attributes }}");
+            </script>
+            <div class="graph-wrapper">
+                <canvas id="my{{ attributes }}Chart" class="graph"></canvas>
+            </div>
+        {% endfor %}
     </div>
-    {% endfor %}
     <script>
         for ( attributes of name_list){
             contexts["contexte"+attributes] = document.getElementById("my"+String(attributes)+"Chart");
@@ -53,20 +139,5 @@
             }
         }, 5000);
     </script>
-
-
-       <!--
-    <script>
-        //const ctx = document.getElementById('my{{attributes}}Chart');
-
-        //Creategraph(ctx);
-
-    // Update the chart every 5 seconds
-        setInterval(() => {
-            Updategraph();
-        }, 5000);
- 
-    </script>--> 
-
 </body>
 </html>
