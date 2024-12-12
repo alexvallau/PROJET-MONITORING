@@ -1,16 +1,6 @@
 {
-    "36479877": {
-        "hostname": "azz",
-        "ipAddress": "192.168.2.132",
-        "communityString": "public",
-        "OID": [
-            "1.3.6.1.2.1.31.1.1.1.6.2",
-            "1.3.6.1.4.1.2021.4.6.0"
-        ],
-        "datafFilePath": "C:\\\\Users\\\\Arizzi Alexandre\\\\Documents\\\\Apprentissage\\\\TRI\\\\Master 2\\\\Projet Developpement\\\\devicesJsonData\\\\36479877.json"
-    },
-    "62001226": {
-        "hostname": "alexvallau",
+    "31672506": {
+        "hostname": "192.168.2.132",
         "ipAddress": "192.168.2.132",
         "communityString": "public",
         "OID": [
@@ -18,6 +8,6 @@
             "1.3.6.1.2.1.31.1.1.1.10.2",
             "1.3.6.1.4.1.2021.4.6.0"
         ],
-        "datafFilePath": "C:\\\\Users\\\\Arizzi Alexandre\\\\Documents\\\\Apprentissage\\\\TRI\\\\Master 2\\\\Projet Developpement\\\\devicesJsonData\\\\62001226.json"
+        "datafFilePath": "C:\\\\Users\\\\Arizzi Alexandre\\\\Documents\\\\Apprentissage\\\\TRI\\\\Master 2\\\\Projet Developpement\\\\devicesJsonData\\\\31672506.json"
     }
 }
