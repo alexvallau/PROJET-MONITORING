@@ -109,6 +109,53 @@ Les bases de notre solutions sont désromais déployer concernant les parties de
 Quelques petits détails sont à apporter afin de rendre l'expérience utilisateur agréable. 
 Dans l'ensemble, unebonne partie du travail a déjà été réalisée, nous pensons donc pêre dans les temps vis-à-vis délais qui nous sont imposés.
 
+Au sein du code, nous distinguerons 3 grandes parties.
+* SNMP(PYSNMP) se chargera de requêter les oids configurés pour chacune des machines. Ces Oids sont configurés sous forme de tableau JSON. Chaque machine peut avoir des oids particuliers
+* L'api renvoie les données récoltées par la partie SNMP de notre programme en fonction du numéro de machine requêté.
+* Le serveur web fait simplement office de vitrine pour
+    * L'affichage des résultats
+    * La gestion (ajout, modification, suppression) du parc de machines 
+
+### Notre avancement au 13/10
+* Nous sommes capables d'ajouter une machine avec plusieurs OIDS. 
+* Les requêtes SNMP sont fonctionnelles, nous sommes capable de stocker durablement les données dans des fichiers json et ce, pour plusieurs machines.
+* L'ajout formaté en json de chaque endpoint est fonctionnel
+* Le site web est partiellement fonctionnel(On ne peut qu'ajouter/consulter la liste des devices)
+* Faire en sorte que quand nous ajoutons une machine depuis le site web, que cette machine soit prise en compte dans la "boucle SNMP". Pour l'instant il faut redémarrer le programme. (~30 minutes)
+* Persistance des données. Les données SNMP sont supprimées à chaque nouveau démarrage de l'application 
+
+
+### Ce qu'il nous reste à faire au 13/10:
+* Afficher les données sous forme de graphique.
+* Modification des devices depuis le site
+* Suppression des devices depuis le site
+* Mettre le système de disponibilité sur chaque machine (~30 minutes)
+* Rendre la création de nouveau thred automatique. Les machines ajoutées par l'interface web doivent actuellement être ajouté en dur à la liste des machines à requêter. (~30 minutes)
+* Persistance des données à réaliser. Les données SNMP sont supprimées à chaque nouveau démarrage de l'application (~40 minutes)
+* Implémenter un système d'utilisateur sur notre site
+    * Un administrateur
+    * Un technicien
+
+### Notre avancement au 21/10
+En plus des fonctionnalités citées à la date précédentes : 
+* Nous pouvons afficher des données sous la forme d'un graphique
+* Persistance des données en place. Les données SNMP stockés durant les précdentes executions ne sont plus supprimées à chaque nouveau démarrage de l'application.
+* Rendre la création de nouveau thred automatique terminé. Les machines ajoutées par l'interface web sont désormais automatiquement ajoutées à la liste des machines à requêter.
+
+### Ce qu'il nous reste à faire le 21/10:
+* Faire varier automatiquement l'affichage des données en fonction des oids supervisés des différentes machines. Actuellement, le serveur web cherchent toujours à afficher les même oids peu importe la  machine séléctionné.
+* Modification des devices depuis le site
+* Suppression des devices depuis le site
+* Déployer le système de connectivité sur chaque machine (~30 minutes)
+* Implémenter un système d'utilisateur sur notre site
+    * Un administrateur
+    * Un technicien
+
+### Conclusion temporaire
+Les bases de notre solutions sont désromais déployer concernant les parties de récupération, de stockage et d'affichage des données.
+Quelques petits détails sont à apporter afin de rendre l'expérience utilisateur agréable. 
+Dans l'ensemble, unebonne partie du travail a déjà été réalisée, nous pensons donc pêre dans les temps vis-à-vis délais qui nous sont imposés.
+
 
 
 

@@ -1,117 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>SNMP Data</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <style>
-        #chart-container {
-            width: 80%;
-            height: 400px;
-            margin: auto;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devices</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script>
+        // Function to update the availability status
+        function updateDeviceStatus() {
+            fetch('/ping_devices')
+                .then(response => response.json())
+                .then(data => {
+                    Object.keys(data).forEach(device_id => {
+                        const status = data[device_id].status;
+                        const statusCell = document.getElementById(`status-${device_id}`);
+                        
+                        if (status === "reachable") {
+                            statusCell.innerHTML = '<button class="btn btn-success btn-sm">Available</button>';
+                        } else {
+                            statusCell.innerHTML = '<button class="btn btn-danger btn-sm">Unavailable</button>';
+                        }
+                    });
+                })
+                .catch(err => console.error("Error fetching ping data:", err));
         }
-    </style>
+    
+        // Poll the server every 5 seconds
+        setInterval(updateDeviceStatus, 5000);
+    
+        // Initial call to load statuses
+        updateDeviceStatus();
+    </script>
 </head>
 <body>
-    <h1>SNMP Data</h1>
-    <label for="timeScale">Select Time Scale:</label>
-    <select id="timeScale">
-        <option value="1">1 Minute</option>
-        <option value="5">5 Minutes</option>
-        <option value="10">10 Minutes</option>
-        <option value="60">1 Hour</option>
-        <option value="0">Depuis le début</option>
-    </select>
-    <div id="chart-container">
-        <canvas id="snmpChart"></canvas>
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mt-4 mb-4">
+            <h1>Devices List</h1>
+            <a href="/add" class="btn btn-primary">Ajouter un device</a>
+        </div>
+        
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Device ID</th>
+                    <th>Hostname</th>
+                    <th>IP Address</th>
+                    <th>Est disponible</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for device_id, device_info in devices.items() %}
+                <tr>
+                    <td>{{ device_id }}</td>
+                    <td><a href="/devices?id={{ device_id }}">{{ device_info.hostname }}</a></td>
+                    <td>{{ device_info.ipAddress }}</td>
+                    <td id="status-{{ device_id }}">
+                        <button class="btn btn-secondary btn-sm">Checking...</button>
+                    </td>
+                    
+                    <td>
+                        <a href="/edit_device?id={{ device_id }}" class="btn btn-warning btn-sm" style="margin-right: 5px;">Modifier</a>
+                        <a href="/delete_device?id={{ device_id }}" class="btn btn-danger btn-sm" style="margin-right: 5px;">Supprimer</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
     </div>
-    <script>
-        let chart;
-        let allData = [];
-
-        // Function to fetch data
-        async function fetchData() {
-            const response = await fetch('/devicesData?id=');
-            return await response.json();
-        }
-
-        // Function to process data based on selected time scale
-        function processChartData(timeScale) {
-            let chartData = timeScale === 0 ? allData : allData.slice(-timeScale * 60);
-
-            const maxPoints = 60;
-            const step = Math.max(1, Math.floor(chartData.length / maxPoints));
-            const limitedData = chartData.filter((_, index) => index % step === 0);
-            const labels = limitedData.map((_, i) => Math.floor(i * step / 60) + 1);
-
-            return { labels, limitedData };
-        }
-
-        // Function to update chart
-        async function updateChart(timeScale) {
-            allData = await fetchData();
-            const { labels, limitedData } = processChartData(timeScale);
-
-            chart.data.labels = labels;
-            chart.data.datasets[0].data = limitedData;
-            chart.update();
-        }
-
-        // Function to create chart
-        function createChart() {
-            const ctx = document.getElementById('snmpChart').getContext('2d');
-            chart = new Chart(ctx, {
-                type: 'line',
-                data: {
-                    labels: [],
-                    datasets: [{
-                        label: 'SNMP Data',
-                        data: [],
-                        borderColor: 'rgba(75, 192, 192, 1)',
-                        borderWidth: 1,
-                        fill: false,
-                        cubicInterpolationMode: 'monotone'
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    scales: {
-                        x: {
-                            title: {
-                                display: true,
-                                text: 'Time (minutes)'
-                            },
-                            ticks: {
-                                maxTicksLimit: 10
-                            }
-                        },
-                        y: {
-                            title: {
-                                display: true,
-                                text: 'Octets'
-                            },
-                            beginAtZero: true
-                        }
-                    }
-                }
-            });
-        }
-
-        // Event listener for time scale changes
-        document.getElementById('timeScale').addEventListener('change', function() {
-            const timeScale = parseInt(this.value);
-            updateChart(timeScale);
-        });
-
-        // Initial chart render
-        createChart();
-        updateChart(1);
-
-        // Update the chart every 5 seconds
-        setInterval(() => {
-            const timeScale = parseInt(document.getElementById('timeScale').value);
-            updateChart(timeScale);
-        }, 5000);
-    </script>
 </body>
 </html>
